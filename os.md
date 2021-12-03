@@ -3,7 +3,6 @@
 `Relative Path`
 - Path with reference to only `current directory`
 ```
-Python.py
 <img src="logo.png">
 ```
 
