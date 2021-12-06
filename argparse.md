@@ -52,7 +52,6 @@ product = args.x * args.y
 print(f'Product : {product}')
 
 Output :
-python greet.py --name Kirankumar | python greet.py -n Kirankumar
-
-Good Morning Kirankumar
+python positional.py --x 4 --y 5
+Product : 20
 ```
