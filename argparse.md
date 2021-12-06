@@ -31,3 +31,28 @@ python greet.py --name Kirankumar | python greet.py -n Kirankumar
 
 Good Morning Kirankumar
 ```
+
+### `Positional` Arguments
+
+```python
+import argparse
+
+# Create a parser object which stores all the information
+parser = argparse.ArgumentParser(description='Multiply two integers', epilog='Thank you for programming')
+
+# Adding arguments
+parser.add_argument('-x', '--x', type=int, metavar='X', required=True, help='Enter the first number')
+parser.add_argument('-y', '--y', type=int, metavar='Y', required=True, help='Enter the second number')
+
+# Parse the argument
+args = parser.parse_args()
+
+# Print the user input argument
+product = args.x * args.y
+print(f'Product : {product}')
+
+Output :
+python greet.py --name Kirankumar | python greet.py -n Kirankumar
+
+Good Morning Kirankumar
+```
