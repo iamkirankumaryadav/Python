@@ -52,6 +52,6 @@ product = args.x * args.y
 print(f'Product : {product}')
 
 Output :
-python positional.py --x 4 --y 5
+python positional.py --x 4 --y 5 | python positional.py -x 4 -y 5
 Product : 20
 ```
