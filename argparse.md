@@ -14,9 +14,20 @@ import argparse
 # Create a parser object which stores all the information
 parser = argparse.ArgumentParser(description='Greet the user', epilog='Thank you for programming')
 
-# Add an argument
+# Adding arguments
 # Optional arguments : '-name', '--name'
 # Positional arguments do not starts with '-' or '--'
-parser.add_argument('-n', '--name', type=str, metavar=)
+# help : description about the argument
+parser.add_argument('-n', '--name', type=str, metavar='', required=True, help='Enter the user name')
 
+# Parse the argument
+args = parser.parse_args()
+
+# Print the user input argument
+print(f'Good Morning {args.name}')
+
+Output :
+python greet.py --name Kirankumar | python greet.py -n Kirankumar
+
+Good Morning Kirankumar
 ```
