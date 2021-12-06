@@ -32,7 +32,7 @@ python greet.py --name Kirankumar | python greet.py -n Kirankumar
 Good Morning Kirankumar
 ```
 
-### `Positional` Arguments
+### `Optional` Arguments
 
 ```python
 import argparse
