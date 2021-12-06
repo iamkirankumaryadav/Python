@@ -17,6 +17,6 @@ parser = argparse.ArgumentParser(description='Greet the user', epilog='Thank you
 # Add an argument
 # Optional arguments : '-name', '--name'
 # Positional arguments do not starts with '-' or '--'
-parser.add_argument('-n', '--name', type=str, matavar=)
+parser.add_argument('-n', '--name', type=str, metavar=)
 
 ```
