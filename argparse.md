@@ -52,6 +52,32 @@ product = args.x * args.y
 print(f'Product : {product}')
 
 Output :
-python positional.py --x 4 --y 5 | python positional.py -x 4 -y 5
+python optional.py --x 4 --y 5 | python optional.py -x 4 -y 5
+Product : 20
+```
+
+### `Positional` Arguments
+
+```python
+import argparse
+
+# Create a parser object which stores all the information
+parser = argparse.ArgumentParser(description='Multiply two integers', epilog='Thank you for programming')
+
+# Adding arguments
+# required is an invalid argument for positional
+# default does not work with positional arguments (passing arguments is compulsory)
+parser.add_argument('x', type=int, metavar='X', help='Enter the first number')
+parser.add_argument('y', type=int, metavar='Y', help='Enter the second number')
+
+# Parse the argument
+args = parser.parse_args()
+
+# Print the user input argument
+product = args.x * args.y
+print(f'Product : {product}')
+
+Output :
+python positional.py 4 5 
 Product : 20
 ```
