@@ -85,7 +85,7 @@ python positional.py 4 5
 Product : 20
 ```
 
-### `Multiple` input arguments
+### `Multiple` Input Arguments
 - Instead of specifying `x` and `y` arguments for the user to input
 - User can also specify a `list` of numbers and the script will return some `aggregate`
 
@@ -98,7 +98,7 @@ parser = argparse.ArgumentParser(description='Add multiple integers', epilog='Th
 # Adding arguments
 # nargs : number of arguments to be passed 
 # nargs='+' : It will allow the argument to take any number of values instead of only 3.
-parser.add_argument('--x', type=int, nargs=3, default=1, metavar='Numbers', help='Enter the mumbers')
+parser.add_argument('--x', type=int, nargs=3, default=1, metavar='Numbers', help='Enter the numbers')
 
 # Parse the argument
 args = parser.parse_args()
@@ -108,7 +108,45 @@ sum = sum(args.x)
 print(f'Sum : {sum}')
 
 Output :
-python positional.py --x 1 2 3
+python multiple_inputs.py --x 1 2 3
 Sum : 6
 ```
 
+### `Mutually Exclusive` Arguments Group
+- Depending on one argument, we can `restrict` the use of another.
+- User should only use one of the argument at a time or the arguments `conflict` with each other.
+```python
+import argparse
+
+# Create a parser object which stores all the information
+parser = argparse.ArgumentParser(description='Add multiple integers + Mutually Exclusive Group', epilog='Thank you for programming')
+
+# Adding arguments
+parser.add_argument('x', type=int, default=1, metavar='X', help='Enter the first number')
+parser.add_argument('y', type=int, default=1, metavar='X', help='Enter the second number')
+
+# Adding mutually exclusive group
+group = parser.add_mutually_exclusive_group()
+group.add_argument('--add', action='store_true')
+group.add_argument('--sub', action='store_true')
+
+# Parse the argument
+args = parser.parse_args()
+
+# Print the user input argument
+if args.add:
+  sum = args.x + args.y
+  print(f'Sum : {sum}')
+  
+elif args.sub:
+  diff = args.x - args.y
+  print(f'Difference : {diff}')
+
+Output :
+python mutually_exclusive_group.py --add 3 3
+Sum : 6
+
+python mutually_exclusive_group.py --sub 3 3
+Difference : 0
+python 
+```
