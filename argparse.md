@@ -41,9 +41,11 @@ import argparse
 parser = argparse.ArgumentParser(description='Multiply two integers', epilog='Thank you for programming')
 
 # metavar='Name' (A name for the argument in help message)
+# To add optional argument, simply remove the required parameter
+# We can set a default value for the case when required parameter is absent 
 # Adding arguments
 parser.add_argument('-x', '--x', type=int, metavar='X', required=True, help='Enter the first number')
-parser.add_argument('-y', '--y', type=int, metavar='Y', required=True, help='Enter the second number')
+parser.add_argument('-y', '--y', type=int, metavar='Y', default = 1, help='Enter the second number')
 
 # Parse the argument
 args = parser.parse_args()
@@ -82,3 +84,31 @@ Output :
 python positional.py 4 5 
 Product : 20
 ```
+
+### `Multiple` input arguments
+- Instead of specifying `x` and `y` arguments for the user to input
+- User can also specify a `list` of numbers and the script will return some `aggregate`
+
+```python
+import argparse
+
+# Create a parser object which stores all the information
+parser = argparse.ArgumentParser(description='Add multiple integers', epilog='Thank you for programming')
+
+# Adding arguments
+# nargs : number of arguments to be passed 
+# nargs='+' : It will allow the argument to take any number of values instead of only 3.
+parser.add_argument('--x', type=int, nargs=3, default=1, metavar='Numbers', help='Enter the mumbers')
+
+# Parse the argument
+args = parser.parse_args()
+
+# Print the user input argument
+sum = sum(args.x)
+print(f'Sum : {sum}')
+
+Output :
+python positional.py --x 1 2 3
+Sum : 6
+```
+
