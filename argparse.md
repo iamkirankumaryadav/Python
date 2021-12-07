@@ -150,3 +150,47 @@ python mutually_exclusive_group.py --sub 3 3
 Difference : 0
 python 
 ```
+
+### `Subparser`
+- When user needs different arguments to be permitted based on command.
+- Each one of the commands requires a unique set of arguments and `subparser` allow to distinguish between them.
+
+```python
+import argparse
+
+# Create a parser object which stores all the information
+parser = argparse.ArgumentParser(description='Subparser', epilog='Thank you for programming')
+
+# Creating subparsers
+subparser = parser.add_subparsers(dest='command')
+login = subparser.add_parser('login')
+register = subparser.add_parser('register')
+
+# Adding arguments for one parser
+login.add_argument('--username', type=str, required=True, metavar='Username', help='Enter the username')
+login.add_argument('--password', type=str, required=True, metavar='Password', help='Enter the password')
+
+# Adding arguments for another parser
+register.add_argument('--fname', type=str, required=True, metavar='First Name', help='Enter the first name of the user')
+register.add_argument('--lname', type=str, required=True, metavar='Last Name', help='Enter the last name of the user')
+register.add_argument('--age', type=int, required=True, metavar='Age', help='Enter the age of the user')
+register.add_argument('--email', type=str, required=True, metavar='Email Address', help='Enter the email address of the user')
+
+# Parse the argument
+args = parser.parse_args()
+
+# Print the user input argument
+if args.command == 'login':
+  print(f'Logging in with username : {args.username}')
+  
+elif args.command == 'register':
+  print(f'Creating account of user with name : {args.fname} {args.lname}, age : {args.age) and email address : {args.email}')
+
+Output :
+python mutually_exclusive_group.py --add 3 3
+Sum : 6
+
+python mutually_exclusive_group.py --sub 3 3
+Difference : 0
+python 
+```
