@@ -40,6 +40,7 @@ import argparse
 # Create a parser object which stores all the information
 parser = argparse.ArgumentParser(description='Multiply two integers', epilog='Thank you for programming')
 
+# metavar='Name' (A name for the argument in help message)
 # Adding arguments
 parser.add_argument('-x', '--x', type=int, metavar='X', required=True, help='Enter the first number')
 parser.add_argument('-y', '--y', type=int, metavar='Y', required=True, help='Enter the second number')
