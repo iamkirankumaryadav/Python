@@ -170,10 +170,10 @@ login.add_argument('--username', type=str, required=True, metavar='Username', he
 login.add_argument('--password', type=str, required=True, metavar='Password', help='Enter the password')
 
 # Adding arguments for another parser
-register.add_argument('--fname', type=str, required=True, metavar='First Name', help='Enter the first name of the user')
-register.add_argument('--lname', type=str, required=True, metavar='Last Name', help='Enter the last name of the user')
+register.add_argument('--fname', type=str, required=True, metavar='First Name', help='Enter the first name')
+register.add_argument('--lname', type=str, required=True, metavar='Last Name', help='Enter the last name')
 register.add_argument('--age', type=int, required=True, metavar='Age', help='Enter the age of the user')
-register.add_argument('--email', type=str, required=True, metavar='Email Address', help='Enter the email address of the user')
+register.add_argument('--email', type=str, required=True, metavar='Email Address', help='Enter the email address')
 
 # Parse the argument
 args = parser.parse_args()
