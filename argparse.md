@@ -148,7 +148,6 @@ Sum : 6
 
 python mutually_exclusive_group.py --sub 3 3
 Difference : 0
-python 
 ```
 
 ### `Subparser`
@@ -187,10 +186,9 @@ elif args.command == 'register':
   print(f'Creating account of user with name : {args.fname} {args.lname}, age : {args.age) and email address : {args.email}')
 
 Output :
-python mutually_exclusive_group.py --add 3 3
-Sum : 6
+python subparser.py login --username Kirankumar --password ramuknarik
+Logging in with username : Kirankumar
 
-python mutually_exclusive_group.py --sub 3 3
-Difference : 0
-python 
+python subparser.py register --fname Kirankumar --lname Yadav --age 25 --email Kirankumar7296@gmail.com
+Creating account of user with name : Kirankumar Yadav, age : 25 and email address : Kirankumar8976@gmail.com
 ```
