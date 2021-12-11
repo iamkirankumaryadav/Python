@@ -92,6 +92,12 @@ object will be created with initial values passed to the instance attributes
 - `Functions` that belongs to an object are called methods.
 - Simply `functions` inside `classes`
 
+### `Principles` of OOP
+1. `Inheritance`
+2. `Polymorphism`
+3. `Encapsulation`
+4. `Abstraction`
+
 ### `Inheritance`
 - `Base` Class + `Child` Class
 
