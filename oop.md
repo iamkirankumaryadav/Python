@@ -39,7 +39,8 @@ class Employee(object):
     self.email = email
     self.designation = designation
     
-instance attributes : name, age, email, designation     
+instance attributes : name, age, email, designation    
+object will be created with initial values passed to the instance attributes
 ```
 
 ### `_x` : `protected` attribute (one underscore)
