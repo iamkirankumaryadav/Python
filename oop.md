@@ -8,6 +8,14 @@
 ### `Object`
 - `Instance` of class, that can store value (information) 
 
+### `--init--()`
+- Special Constructor or Special Method or Magic Function
+- `__init__()` function is called automatically whenever we create objects from the class.
+- The arguments or parameters passed with `__init__()` are called instance attributes.
+
+### `self`
+- A reference to the current `instance` of the class.
+
 ### `_x` : `protected` attribute (one underscore)
 - Can be accessed using instance.
 
