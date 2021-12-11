@@ -4,6 +4,29 @@
 - Almost everything in Python is an `object`
 - `str()`, `int()`... are the constructor functions.
 
+```python
+# string
+print(type("a string"))
+
+# integer
+print(type(5))
+
+# float
+print(type(5.0))
+
+# list
+print(type([1, 2, 3]))
+
+# tuple
+print(type((1, 2, 3)))
+
+# set
+print(type({1, 2, 3}))
+
+# dictionary
+print(type({1 : "Kirankumar", 2 : 25, 3 : "Data Scientist"}))
+```
+
 
 ### `class` 
 - Blueprint | Template for creating `objects`
