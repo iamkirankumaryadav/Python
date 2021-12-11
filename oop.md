@@ -37,7 +37,7 @@ Output :
 <class 'set'>
 <class 'dict'>
 
-# Constructor
+# Constructor Functions
 
 int(2.5) = 2
 str(5) = "5"
