@@ -34,8 +34,8 @@ instance attributes : name, age, email, designation
 - Used to access or reference `attributes` and `methods` of class.
 
 ```python 
-def change_designation(self):
-    pass
+def change_designation(self, new_password):
+    self.password = new_password
 ```
 
 ### `_x` : `protected` attribute (one underscore)
