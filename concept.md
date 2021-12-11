@@ -5,7 +5,7 @@
 
 ### `Package`
 - Collection of `Modules`
-- Must contain `.init.py` file
+- Must contain `init.py` file
 
 ### `Flag`
 - A flag in Python acts as a signal | `True` or `False`
