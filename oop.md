@@ -43,6 +43,9 @@ instance attributes : name, age, email, designation
 object will be created with initial values passed to the instance attributes
 ```
 
+### `method`
+- `Functions` that belongs to an object are called methods.
+
 ### `_x` : `protected` attribute (one underscore)
 - Can be accessed using `instance`
 
