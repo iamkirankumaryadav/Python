@@ -96,8 +96,8 @@ object will be created with initial values passed to the instance attributes
 - `Base` Class + `Child` Class
 
 ### `Encapsulation`
-- `_x` : `protected` attribute and method (`single` underscore) can be accessed using `instance`
-- `__x` : `private` attribute and method (`double` underscore) cannot be accessed using `instance`
+- `_x` : `protected` attribute and method | `Single` underscore | Can be accessed using `instance`
+- `__x` : `private` attribute and method | `Double` underscore | Cannot be accessed using `instance`
 
 ### `Properties`
 - `Getter` / `Setter`
