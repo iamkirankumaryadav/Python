@@ -1,5 +1,10 @@
 # Object Oriented Programming
 
+- `Python` is an object oriented programming language.
+- Almost everything in Python is an `object`
+- `str()`, `int()`... are the constructor functions.
+
+
 ### `class` 
 - Blueprint | Template for creating `objects`
 - Attributes | Properties | Variables 
