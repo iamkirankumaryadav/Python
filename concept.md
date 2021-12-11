@@ -1,4 +1,4 @@
-### Important concepts that we never give attention to
+### Important Concepts 
 
 ### `Module`
 `.py` file
