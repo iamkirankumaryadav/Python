@@ -23,19 +23,23 @@ emp1 = Employee()
 - The arguments or parameters passed with `__init__()` are called `instance attributes`
 
 ```python
-    def __inti__(self, name, age, email, designation)
-    
-self : a reference to the current instance (attributes and methods) of the class   
-instance attributes : name, age, email, designation 
+    def __init__(self, name, age, email, designation):
 ```
 
 ### `self`
-- A reference to the current `instance` of the class.
+- A reference to the current `instance` (attributes and methods) of the class.
 - Used to access or reference `attributes` and `methods` of class.
 
 ```python 
-def change_designation(self, new_password):
-    self.password = new_password
+class Employee(object):
+
+    def __init__(self, name, age, email, designation)
+    self.name = name
+    self.age = age 
+    self.email = email
+    self.designation = designation
+    
+instance attributes : name, age, email, designation     
 ```
 
 ### `_x` : `protected` attribute (one underscore)
