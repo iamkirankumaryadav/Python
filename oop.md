@@ -36,6 +36,12 @@ Output :
 <class 'tuple'>
 <class 'set'>
 <class 'dict'>
+
+# Constructor
+
+int(2.5) = 2
+str(5) = "5"
+float(7) = 7.0
 ```
 
 
