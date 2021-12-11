@@ -1,11 +1,11 @@
 # Object Oriented Programming
 
-### `Class` 
+### `class` 
 - Blueprint | Template for creating `objects`
 - Attributes | Properties | Variables 
 - Behavior | Action | Member `Function` or `Methods`
 
-### `Object`
+### `object`
 - `Instance` of class, that can store value (information) 
 
 ### `__init__()`
