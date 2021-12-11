@@ -25,6 +25,17 @@ print(type({1, 2, 3}))
 
 # dictionary
 print(type({1 : "Kirankumar", 2 : 25, 3 : "Data Scientist"}))
+
+-------------------------------------------------------------
+Output :
+-------------------------------------------------------------
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'list'>
+<class 'tuple'>
+<class 'set'>
+<class 'dict'>
 ```
 
 
