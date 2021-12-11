@@ -90,9 +90,18 @@ object will be created with initial values passed to the instance attributes
 
 ### `method`
 - `Functions` that belongs to an object are called methods.
+- Simply `functions` inside `classes`
+
+### `Inheritance`
+- `Base` Class + `Child` Class
+
+### `Encapsulation`
 
 ### `_x` : `protected` attribute (one underscore)
 - Can be accessed using `instance`
 
 ### `__x` : `private` attribute (double underscore)
 - Cannot be accessed using `instance`
+
+### `Properties`
+- `Getter` / `Setter`
