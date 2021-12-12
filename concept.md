@@ -1,7 +1,7 @@
 ### Important Concepts 
 
 ### `Module`
-`.py` file
+- `.py` file
 
 ### `Package`
 - Collection of `Modules`
