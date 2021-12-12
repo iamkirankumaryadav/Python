@@ -1,4 +1,4 @@
-# Python
+# `Python`
 Python basics 
 
 Multiple `libraries` can be imported in a following way 
