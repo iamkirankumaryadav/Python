@@ -99,7 +99,8 @@ object will be created with initial values passed to the instance attributes
 4. `Abstraction`
 
 ### `Inheritance`
-- `Base` Class + `Child` Class
+- `Parent` Class | `Base` Class
+- `Child` Class | `Derived` Class 
 
 ### `Encapsulation`
 - `_x` : `protected` attribute and method | `Single` underscore | Can be accessed using `instance`
