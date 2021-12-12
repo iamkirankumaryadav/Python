@@ -1,5 +1,4 @@
 # `Python`
-Python basics 
 
 Importing multiple `libraries`
 ```python
