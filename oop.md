@@ -109,3 +109,4 @@ object will be created with initial values passed to the instance attributes
 
 ### `Properties`
 - `Getter` / `Setter`
+- Pythonic way to `set` and `get` protected attributes. 
