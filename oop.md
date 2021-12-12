@@ -101,6 +101,7 @@ object will be created with initial values passed to the instance attributes
 ### `Inheritance`
 - `Parent` Class | `Base` Class
 - `Child` Class | `Derived` Class 
+- `Super` Class | `Sub` Class
 
 ### `Encapsulation`
 - `_x` : `protected` attribute and method | `Single` underscore | Can be accessed using `instance`
