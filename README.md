@@ -7,7 +7,7 @@
 - Collection of `Modules`
 - Must contain `init.py` file
 
-### Libraries
+### `Libraries`
 - Collection of `Packages`
 
 ### Importing multiple `libraries`
