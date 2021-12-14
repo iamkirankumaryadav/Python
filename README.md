@@ -20,7 +20,7 @@ import pandas as pd, numpy as np, matplotlib.pyplot as plt
 from numpy import (ones, zeros, full, random)
 ```
 
-### Check for defined `Constants`, `Classes`, `Methods`, `Protected Methods` and `Dunder Methods` inside a module
+### Check for defined `Constants`, `Classes`, `Methods`, `Protected Methods` and `Dunder Methods` in a module
 ```python
 dir(module)
 ```
