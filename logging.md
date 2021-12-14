@@ -11,6 +11,8 @@ import logging
 
 ### Standard Logging `Levels`
 
+Each and every level is assigned with a `constant` value.
+
 `DEBUG` : Detailed information, step by step processing, while diagnosing problems.
 
 `INFO` : Confirmation that things are working as expected.
