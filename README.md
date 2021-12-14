@@ -46,7 +46,7 @@ print(list(filter(lambda c : c.istitle(), dir(module))))
 - e.g. def method_name():
 - Find all the `methods` defined inside a module.
 ```python
-print(list(filter(lambda c : c.islower(), dir(logging))))
+print(list(filter(lambda c : c.islower(), dir(module))))
 ```
 
 ### `Dunder Methods`
@@ -54,7 +54,7 @@ print(list(filter(lambda c : c.islower(), dir(logging))))
 - e.g def `__init__(self)`
 - Find all the `dunder methods` defined inside a module.
 ```python
-print(list(filter(lambda c : c.startswith('__'), dir(logging))))
+print(list(filter(lambda c : c.startswith('__'), dir(module))))
 ```
 
 ### `Protected Methods`
@@ -62,5 +62,5 @@ print(list(filter(lambda c : c.startswith('__'), dir(logging))))
 - e.g def \_calculate_salary(self):
 - Find all the `protected methods` defined inside a module.
 ```python
-print(list(filter(lambda c : c.startswith('_') and not c.startswith('__'), dir(logging))))
+print(list(filter(lambda c : c.startswith('_') and not c.startswith('__'), dir(module))))
 ``` 
