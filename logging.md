@@ -22,3 +22,16 @@ Each and every level is assigned with a `constant` value.
 `ERROR` : More serious problem, it may stop the process.
 
 `CRITICAL` : Serious error, indicating that the program may not be able to continue running.
+
+`Logger` will only write messages with a level `>=` set level
+
+If we set the level to `logging.DEBUG` then we can see all log messages.
+
+Level | Value
+:--- | :---:
+NOTSET | **0**
+DEBUG | **10**
+INFO | **20**
+**WARNING** | **30** (Default)
+ERROR | **40**
+CRITICAL | **50**
