@@ -27,6 +27,8 @@ Each and every level is assigned with a `constant` value.
 
 If we set the level to `logging.DEBUG` then we can see all log messages.
 
+By default logging is in append mode, we can override by `filemode = 'w'`
+
 Level | Value
 :--- | :---:
 NOTSET | `0`
