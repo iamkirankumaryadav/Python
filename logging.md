@@ -1,6 +1,6 @@
 # `logging`
 
-- Record `Progress` and `Problems`...
+- Record `Progress` and `Problems`
 - `Logs` in right place helps us to know and look at the `behaviours`, `errors` and `warnings` over time.
 - Give a better overall view on order of execution and what exactly is happening inside the code step by step.
 
