@@ -13,15 +13,11 @@ import logging
 
 Each and every level is assigned with a `constant` value.
 
-`DEBUG` : Detailed information, step by step processing, while diagnosing problems.
-
-`INFO` : Confirmation that things are working as expected.
-
-`WARNING` : Indicates that something unexpected happened, or indicate problems in near future.
-
-`ERROR` : More serious problem, it may stop the process.
-
-`CRITICAL` : Serious error, indicating that the program may not be able to continue running.
+1. `DEBUG` : Detailed information, step by step processing, while diagnosing problems.
+2. `INFO` : Confirmation that things are working as expected.
+3. `WARNING` : Indicates that something unexpected happened, or indicate problems in near future.
+4. `ERROR` : More serious problem, it may stop the process.
+5. `CRITICAL` : Serious error, indicating that the program may not be able to continue running.
 
 `Logger` will only write messages with a level `>=` set level
 
