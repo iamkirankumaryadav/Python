@@ -118,6 +118,9 @@ len([1, 2, 3, 4, 5]) : 5
 ### `Encapsulation`
 - `_x` : `protected` attribute and method | `Single` underscore | Can be accessed using `instance`
 - `__x` : `private` attribute and method | `Double` underscore | Cannot be accessed using `instance`
+- `Bind` together the `data`, `attributes` and `methods` ( Class = Data + Properties + Behaviour )
+- `Restrict` access to methods, attributes and variables of Class.
+- `Prevents` data from direct `modification`
 
 ### `Abstraction`
 - `Show` only important information and `hide` internal implementation details from users.
