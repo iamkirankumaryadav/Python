@@ -130,5 +130,19 @@ capital = uppercase
 print(capital('Hello'))
 -----------------------
 Output :
+-----------------------
 HELLO
+-----------------------
+
+def adder(x):
+    def add(y):
+        return x + y 
+    return adder
+ 
+add15 = adder(15)
+print(add15(10))
+-----------------------
+Output :
+-----------------------
+25
 ```
