@@ -120,3 +120,15 @@ object will be created with initial values passed to the instance attributes
 - Function can be stored in a `variable`
 - Function can be passed as a `parameter` to another function
 - Function can be returned as a result from another function
+
+```python
+def uppercase(text):
+    return text.upper()
+ 
+capital = uppercase
+ 
+print(capital('Hello'))
+-----------------------
+Output :
+HELLO
+```
