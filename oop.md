@@ -118,6 +118,7 @@ object will be created with initial values passed to the instance attributes
 - Functions are `First Class Objects` : Can be used or passed as `arguments`
 - Function is an `instance` of `Object type`
 - Function can be stored in a `variable`
+- Function can be created inside a function
 - Function can be passed as a `parameter` to another function
 - Function can be returned as a result from another function
 
@@ -125,7 +126,7 @@ object will be created with initial values passed to the instance attributes
 def uppercase(text):
     return text.upper()
  
-capital = uppercase
+capital = uppercase     # Storing function in a variable
  
 print(capital('Hello'))
 -----------------------
@@ -135,9 +136,9 @@ HELLO
 -----------------------
 
 def adder(x):
-    def add(y):
+    def add(y):         # Creating a function inside function
         return x + y 
-    return adder
+    return adder        # Returning function as a result
  
 add15 = adder(15)
 print(add15(10))
