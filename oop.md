@@ -103,9 +103,24 @@ object will be created with initial values passed to the instance attributes
 - `Child` Class or `Derived` Class or `Sub` Class
 - `Inherit` the `attributes` ( properties ) and `methods` ( behaviour ) from base class to a new derived class.
 
+### `Polymorphism`
+- Having more than one form.
+- In Python we can use the same function on different data types or different sequence or collections.
+
+```python
+# Same function can be used to count the characters in a string as well as number of items in a list
+
+len("Kirankumar") : 10
+
+len([1, 2, 3, 4, 5]) : 5
+```
+
 ### `Encapsulation`
 - `_x` : `protected` attribute and method | `Single` underscore | Can be accessed using `instance`
 - `__x` : `private` attribute and method | `Double` underscore | Cannot be accessed using `instance`
+
+### `Abstraction`
+- `Show` only important information and `hide` internal implementation details from users.
 
 ### `Properties`
 - `Getter` / `Setter`
