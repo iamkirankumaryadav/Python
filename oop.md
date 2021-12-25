@@ -110,3 +110,13 @@ object will be created with initial values passed to the instance attributes
 ### `Properties`
 - `Getter` / `Setter`
 - Pythonic way to `set` and `get` protected attributes. 
+
+### `Decorator`
+- Decorator modify or extend the behaviour of a `Function` or `Class` without permanently modifying it.
+
+### `First Class Objects`
+- Functions are `First Class Objects` : Can be used or passed as `arguments`
+- Function is an `instance` of `Object type`
+- Function can be stored in a `variable`
+- Function can be passed as a `parameter` to another function
+- Function can be returned as a result from another function
