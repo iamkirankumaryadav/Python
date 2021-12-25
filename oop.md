@@ -99,9 +99,9 @@ object will be created with initial values passed to the instance attributes
 4. `Abstraction`
 
 ### `Inheritance`
-- `Parent` Class | `Base` Class
-- `Child` Class | `Derived` Class 
-- `Super` Class | `Sub` Class
+- `Parent` Class or `Base` Class or `Super` Class
+- `Child` Class or `Derived` Class or `Sub` Class
+- `Inherit` the `attributes` ( properties ) and `methods` ( behaviour ) from base class to a new derived class.
 
 ### `Encapsulation`
 - `_x` : `protected` attribute and method | `Single` underscore | Can be accessed using `instance`
