@@ -1,4 +1,4 @@
-# Conditional Operators :
+# Conditionals :
 
 ### `Comparison` Operators :
 
