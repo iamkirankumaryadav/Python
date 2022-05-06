@@ -45,7 +45,7 @@ Operators | Description
 `<<`, `>>` | Bitwise shifts
 `&` | Bitwise AND 
 `^` | Bitwise XOR
-`|` | Bitwise OR
+``|`` | Bitwise OR
 `in`, `not in`, `is`, `is not`, `<`, `<=`, `>`, `>=`, `!=`, `==` | Comparisons, Membership and Identity tests
 `not x` | Boolean NOT
 `and` | Boolean AND
