@@ -47,10 +47,12 @@ attempt_count = 0
 max_attempt = 5
 
 while passcode != secret:
-    attempt_count += 1
+    attempt_count += 1 # Attempt count will start from 1.
     if attempt_count > max_attempt: break # Loop will be terminated once the attempt > max_attempt.
     passcode = input(f'{attempt_count}: What is the secret passcode ?')
-else:
+
+# If the passcode is correct, the authorization will be set to True.
+else: 
     auth = True
 
 print("Authorized...✅" if auth else "Calling Police...❌🚓🚨")
