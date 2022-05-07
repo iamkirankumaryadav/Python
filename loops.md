@@ -46,6 +46,7 @@ auth = False
 attempt_count = 0
 max_attempt = 5
 
+# While loop will execute until the passcode == secret code.
 while passcode != secret:
     attempt_count += 1 # Attempt count will start from 1.
     if attempt_count > max_attempt: break # Loop will be terminated once the attempt > max_attempt.
