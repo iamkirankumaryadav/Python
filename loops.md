@@ -20,3 +20,12 @@ while pwd != secret:
 - For loop uses a sequence, like an iterator ( List, Tuple, Set, Dictionary ) to control the loop.
 - The body of the loop is executed for each item in the sequence.
 - When the sequence is completed the loop ends.
+
+```python
+# Sequence | Collection
+animals = ('bear', 'bunny', 'dog', 'cat')
+
+# Loop
+for animal in animals:
+    print(pet)
+```
