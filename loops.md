@@ -48,7 +48,7 @@ max_attempt = 5
 
 while passcode != secret:
     attempt_count += 1
-    if attempt_count > max_attempt: break
+    if attempt_count > max_attempt: break # Loop will be terminated once the attempt > max_attempt.
     passcode = input(f'{attempt_count}: What is the secret passcode ?')
 else:
     auth = True
