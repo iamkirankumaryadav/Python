@@ -29,3 +29,29 @@ animals = ('bear', 'bunny', 'dog', 'cat')
 for animal in animals:
     print(pet)
 ```
+
+# Clause 
+
+## `Continue`
+- Continue clause is used to shortcut a loop.
+- Starts it again as if it had reached the end of its body.
+
+## `Break`
+- The break clause is used to break out of the loop ( Terminate )
+
+```python
+secret = 'alpha123'
+passcode = ''
+auth = False
+attempt_count = 0
+max_attempt = 5
+
+while passcode != secret:
+    attempt_count += 1
+    if attempt_count > max_attempt: break
+    passcode = input(f'{attempt_count}: What is the secret passcode ?')
+else:
+    auth = True
+
+print("Authorized" if auth else "Calling Police...🚓🚨")
+```
