@@ -53,5 +53,5 @@ while passcode != secret:
 else:
     auth = True
 
-print("Authorized" if auth else "Calling Police...🚓🚨")
+print("Authorized...✅" if auth else "Calling Police...❌🚓🚨")
 ```
