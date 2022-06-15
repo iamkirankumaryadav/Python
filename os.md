@@ -3,14 +3,21 @@
 ```python
 import os
 
-os.getcwd()                 # Get current working directory.
-os.path.basename(__file__)  # Basename of current working file.
-os.path.abspath(__file__)   # Absolute path of current working directory
-os.path.dirname(__file__)   # Directory name
+# Get current working directory.
+os.getcwd()                 
+
+# Basename of current working file.
+print(f'Basename: {os.path.basename(__file__)}')  
+
+# Absolute path of current working directory
+os.path.abspath(__file__)   
+
+# Directory name
+os.path.dirname(__file__)   
 
 Output :
 /User/Kirankumar/Python/os.py
-os.py
+Basename: os.py
 /User/Kirankumar/Python/os.py
 /User/Kirankumar/Python
 ```
