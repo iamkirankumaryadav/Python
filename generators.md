@@ -8,7 +8,7 @@
 ```python
 fruits = ['apple', 'banana', 'orange', 'pineapple', 'grapes', 'kiwi', 'apricot', 'mango']
 
-def contain_i(words):
+def contains_i(words):
   i_words = []
   for word in words:
     if 'i' in word:
