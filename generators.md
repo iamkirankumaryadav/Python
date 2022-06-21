@@ -13,7 +13,7 @@ def contains_i(words):
     if 'i' in word:
       yield word
   
-print(contains_i(fruits)
+print(list(contains_i(fruits)))
 ```
 
 ```output
