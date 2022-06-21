@@ -65,3 +65,9 @@ list(generator_expression)
 
 # Output: [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
+
+```python
+# Find phrase with most words:
+max((len(string.split(" ")) for string in words))
+
+``` 
