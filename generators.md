@@ -36,7 +36,12 @@ print(list(square(10)))
 ### Generator Expression:
 
 ```python
-list((n ** 2 for n in range(1, 10))
+
+# Creating generator object:
+gen_obj = (n ** 2 for n in range(1, 10)
+
+# Converting into list:
+list(gen_obj)
 ```            
 
 ```output
