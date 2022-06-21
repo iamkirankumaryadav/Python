@@ -9,11 +9,9 @@
 fruits = ['apple', 'banana', 'orange', 'pineapple', 'grapes', 'kiwi', 'apricot', 'mango']
 
 def contains_i(words):
-  i_words = []
   for word in words:
     if 'i' in word:
-      i_words.append(word)
-  return i_words
+      yield word
   
 print(contains_i(fruits)
 ```
