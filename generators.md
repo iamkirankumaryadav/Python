@@ -40,11 +40,11 @@ print(list(square(10)))
 ```python
 # Creating list comprehension:
 list_comprehension = [n ** 2 for n in range(1, 10)]
+# Output: [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 ```python
 import sys
 sys.getsize(list_comprehension)
-
 # Output: 21516
 ```
 
@@ -53,13 +53,11 @@ sys.getsize(list_comprehension)
 generator_expression = (n ** 2 for n in range(1, 10)
 
 sys.getsizeof(generator_expression)
-
 # Output: 56
 ```
 
 ```python
 # Converting into list:
 list(generator_expression)
-
 # Output: [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
