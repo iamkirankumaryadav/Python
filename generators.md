@@ -54,7 +54,7 @@ sys.getsizeof(list_comprehension)
 # Creating generator object:
 generator_expression = (n ** 2 for n in range(1, 10)
 
-# 
+import sys
 sys.getsizeof(generator_expression)
 # Output: 56
 ```
@@ -62,5 +62,6 @@ sys.getsizeof(generator_expression)
 ```python
 # Converting into list:
 list(generator_expression)
+
 # Output: [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
