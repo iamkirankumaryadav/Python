@@ -1,4 +1,4 @@
-# Generators
+ Generators
 
 - Creates an iterator.
 - Used for large data set which requires hight memory.
@@ -17,8 +17,7 @@ print(list(contains_i(fruits)))
 ```
 
 ```output
-# Output : 
-['pineapple', 'kiwi', 'apricot']
+# Output: ['pineapple', 'kiwi', 'apricot']
 ```
 ```python
 deg square(n):
@@ -29,8 +28,7 @@ print(list(square(10)))
 ```      
 
 ```output
-# Output:
-[1, 4, 9, 16, 25, 36, 49, 64, 81]
+# Output: [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
 ### Generator Expression:
@@ -45,6 +43,5 @@ list(gen_obj)
 ```            
 
 ```output
-# Output:
-[1, 4, 9, 16, 25, 36, 49, 64, 81]
+# Output: [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
