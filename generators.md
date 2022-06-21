@@ -33,6 +33,10 @@ print(list(square(10)))
 
 ### Generator Expression:
 
+- Comprehensions are faster.
+- Comprehensions are single line codes.
+- Expressions saves memory. 
+
 ```python
 
 # Creating generator object:
