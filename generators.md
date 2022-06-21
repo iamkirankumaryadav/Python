@@ -32,3 +32,14 @@ print(list(square(10)))
 # Output:
 [1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
+
+### Generator Expression:
+
+```python
+list((n ** 2 for n in range(1, 10))
+```            
+
+```output
+# Output:
+[1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
