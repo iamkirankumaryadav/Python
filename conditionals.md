@@ -1,4 +1,4 @@
-## `Comparison` Operators :
+## `Comparison` | `Relational` Operators :
 
 Expression | Meaning 
 :---: | :---
