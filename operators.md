@@ -8,7 +8,7 @@ a `*` b | Multiplication
 a `/` b | Division (Float Quotient)
 a `//` b | Floor Division (Integer Quotient)
 a `%` b | Modulo (Remainder)
-a `**` b | Exponent
+a `**` b | Power (Exponent)
 `+`a | Unary Positive
 `-`a | Unary Negative
 
@@ -21,7 +21,7 @@ a `*=` b | Multiplication | a = a * b
 a `/=` b | Division (Float Quotient) | a = a / b
 a `//=` b | Floor Division (Integer Quotient) | a = a // b
 a `%=` b | Modulo (Remainder) | a = a % b
-a `**=` b | Exponent (Power) | a = a ** b
+a `**=` b | Power (Exponent) | a = a ** b
 
 ## `Bitwise` Operators
 
