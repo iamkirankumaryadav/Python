@@ -61,7 +61,7 @@ x `not in` [a, b, c] | True if x is not a member of collection
 Expression | Meaning 
 :---: | :---
 a `&` b | And
-a `|` b | Or
+a `\|` b | Or
 a `^` b | Xor
 a `<<` b | Shift left
 a `>>` b | Shift right
