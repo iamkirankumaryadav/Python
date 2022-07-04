@@ -5,9 +5,9 @@ Expression | Meaning
 a `+` b | Addition
 a `-` b | Subtraction
 a `*` b | Multiplication
-a `/` b | Division (Float)
-a `//` b | Floor Division (Integer)
-a `%` b | Remainder (Modulo)
+a `/` b | Division (Float Quotient)
+a `//` b | Floor Division (Integer Quotient)
+a `%` b | Modulo (Remainder)
 a `**` b | Exponent
 `+`a | Unary Positive
 `-`a | Unary Negative
@@ -18,9 +18,9 @@ Expression | Meaning | Similar
 a `+=` b | Addition | a = a + b
 a `-=` b | Subtraction | a = a - b 
 a `*=` b | Multiplication | a = a * b
-a `/=` b | Division (Float) | a = a / b
-a `//=` b | Floor Division (Integer) | a = a // b
-a `%=` b | Remainder (Modulo) | a = a % b
+a `/=` b | Division (Float Quotient) | a = a / b
+a `//=` b | Floor Division (Integer Quotient) | a = a // b
+a `%=` b | Modulo (Remainder) | a = a % b
 a `**=` b | Exponent (Power) | a = a ** b
 
 ## `Bitwise` Operators
