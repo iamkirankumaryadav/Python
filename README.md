@@ -4,11 +4,11 @@
 - `.py` file
 
 ### `Package`
-- Collection of `Modules`
+- Collection of `modules`
 - Must contain `init.py` file
 
 ### `Libraries`
-- Collection of `Packages`
+- Collection of `packages`
 
 ### Importing multiple `libraries`
 ```python
@@ -20,7 +20,7 @@ import pandas as pd, numpy as np, matplotlib.pyplot as plt
 from numpy import (ones, zeros, full, random)
 ```
 
-### Check for `Constants`, `Classes`, `Methods`, `Protected Methods` and `Dunder Methods` in a module
+### `Constants`, `Classes`, `Methods`, `Protected Methods` and `Dunder Methods`
 ```python
 dir(module)
 ```
