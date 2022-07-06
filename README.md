@@ -22,6 +22,7 @@ from numpy import (ones, zeros, full, random)
 
 ### `Constants`, `Classes`, `Methods`, `Protected Methods` and `Dunder Methods`
 ```python
+# Get all the predefined constants, classes and methods in a module:
 dir(module)
 ```
 
