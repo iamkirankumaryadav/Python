@@ -10,6 +10,9 @@
 ### `Libraries`
 - Collection of `packages`
 
+## `pip`
+Package installer for Python
+
 ### Importing multiple `libraries`
 ```python
 import pandas as pd, numpy as np, matplotlib.pyplot as plt
