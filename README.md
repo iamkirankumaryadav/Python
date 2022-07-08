@@ -10,7 +10,7 @@
 ### `Libraries`
 - Collection of `packages`
 
-## `pip`
+### `pip`
 Package installer for Python
 
 ### Importing multiple `libraries`
