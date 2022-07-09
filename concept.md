@@ -29,3 +29,10 @@ while active:
 Default Slicing 
 - `[:index]`: First index is considered as `0` by default | `[0:index]`
 - `[index:]`: Last index is considered as the length of collection | `[index:length of the collection]`
+
+### `Copy` Collection
+```python
+numbers = [10, 20, 30]
+
+copy_of_numbers = numbers[:]
+```
