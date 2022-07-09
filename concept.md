@@ -27,5 +27,5 @@ while active:
 ### `Slicing`
 
 Default Slicing 
-- `[:index]` (First index is considered as `0` by default)
-- `[index:length of the collection]` (Last index is considered as the length of collection)
+- `[:index]`:`[0:index]` (First index is considered as `0` by default)
+- `[index:]`:`[index:length of the collection]` (Last index is considered as the length of collection)
