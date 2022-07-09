@@ -18,3 +18,14 @@ while active:
     else:
         print(message)
 ```
+
+### `Indexing`
+
+1. `Forward` Indexing: Starting from 0, 1, 2.....
+2. `Reverse` Indexing: Starting from -1, -2, -3...
+
+### `Slicing`
+
+Default Slicing 
+- `[:index]` (First index is considered as `0` by default)
+- `[index:length of the collection]` (Last index is considered as the length of collection)
