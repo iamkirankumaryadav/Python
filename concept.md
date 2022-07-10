@@ -36,3 +36,8 @@ numbers = [10, 20, 30]
 
 copy_of_numbers = numbers[:]
 ```
+
+### Arguments
+
+- `Keyword` arguments must come after positional arguments.
+- Afterwards keywords arguments can be in any order.
