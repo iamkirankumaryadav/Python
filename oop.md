@@ -5,9 +5,9 @@
 ```
 e.g. x = 5 
 
-# We want to store a data value 5, 5 is stored in a computer memory at a particular hexadecimal memory address.
-# Remembering the hexadecimal memory address will be very complicated for the user or developer to manage data.
-# We will access the memory address to store and retrieve data, so we map the address with a meaningfull variable name.
+# We want to store a data i.e. 5, 5 is stored in a computer memory at a particular hexadecimal memory address.
+# Remembering the hexadecimal memory address will be very complicated for the developer to manage data.
+# We will access the memory address to store and retrieve data, so we map the address with a meaningful variable name.
 # We create an integer object with `value = 5` and assign its memory address to a `variable x`
 # Data type, value, reference count and other informations are associated with object, variable just holds the memory address.
 ```
