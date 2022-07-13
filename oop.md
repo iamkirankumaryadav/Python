@@ -9,6 +9,7 @@ e.g. x = 5
 # Remembering the hexadecimal memory address will be very complicated for the user or developer to manage data.
 # We will access the memory address to store and retrieve data, so we map the address with a meaningfull variable name.
 # We create an integer object with `value = 5` and assign its memory address to a `variable x`
+# Data type, value, reference count and other informations are associated with object, variable just holds the memory address.
 ```
 - `str()`, `int()`... are the constructor functions.
 
