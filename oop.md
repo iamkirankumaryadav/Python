@@ -2,6 +2,7 @@
 
 - `Python` is an object oriented programming language.
 - Almost everything in Python is an `object`
+- e.g. x = 5 (Here we create an integer object with `value = 5` and assign its memory address to a `variable x`)
 - `str()`, `int()`... are the constructor functions.
 
 ```python
