@@ -2,7 +2,7 @@
 
 ```python
 class Vehicle():
-    wheels = 4
+    wheels = 4 # Static attribute
     
     def __init__(self, name):
         self.name = name
