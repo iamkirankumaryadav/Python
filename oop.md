@@ -85,6 +85,7 @@ emp1 = Employee()
 ### `self`
 - A reference to the current `instance` ( attributes and methods ) of the class.
 - Used to access or reference `attributes` and `methods` of class.
+- `self` provides a flexibility to call the `instance attributes` in any method defined inside the class irrespective of it's scope.
 
 ```python 
 class Employee(object):
