@@ -102,7 +102,12 @@ object will be created with initial values passed to the instance attributes
 
 ### `method`
 - `Functions` that belongs to an object are called methods.
-- Simply `functions` inside `classes`
+```python
+name = 'Kirankumar' # String object "name" is created.
+
+name.upper() # upper() is the method of string object.
+```
+- Simply `functions` defined inside `class` are `methods`
 
 ## `Principles` of OOP
 1. `Inheritance`
