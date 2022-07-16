@@ -73,7 +73,8 @@ emp1 = Employee()
 
 ### `__init__()`
 - `Special Constructor` or `Special Method` or `Magic Method`
-- `__init__()` function is called automatically whenever we create objects from the class.
+- `Attributes` are initialized in `__init__()`
+- `__init__()` function is called | executed automatically whenever we create objects from the class | with every new class instance.
 - The arguments or parameters passed with `__init__()` are called `instance attributes`
 
 ```python
