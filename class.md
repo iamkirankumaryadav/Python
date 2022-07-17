@@ -1,8 +1,6 @@
 # Class
 
-### `Class`
-
-- `Class` is a blueprint | template of a real world entity.
+`Class` is a blueprint | template of a real world entity.
 
 ```python
 # Defining class:
