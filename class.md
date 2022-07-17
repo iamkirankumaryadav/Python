@@ -31,7 +31,7 @@ class Orientation():
         self.x_dir, self.y_dir = self.getUnitVectorFromDegree(degree) # Direction vectors
         
     # Instance Method    
-    def getUnitVectorFromDegree(self, degree):
+    def getUnitVectorFromDegree(self, degree): # Getter function
         radians = (degree/180) * self.pi
         return math.sin(radians), -math.cos(radians)
     
