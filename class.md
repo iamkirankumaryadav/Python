@@ -3,7 +3,7 @@
 ```python
 class Vehicle():
     wheels = 4 # Static attribute | Class attribute
-    _doors = 4 # Private attribute
+    _doors = 4 # Private attribute (Should not be modified)
     
     def __init__(self, name): # Instance attribute
         self.name = name
