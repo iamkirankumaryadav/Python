@@ -1,7 +1,12 @@
 # Class
 
+### `Class`
+
+- `Class` is a blueprint | template of a real world entity.
+
 ```python
-class Vehicle():
+# Defining class:
+class Vehicle(): 
     wheels = 4 # Static attribute | Class attribute
     _doors = 4 # Private attribute (Should not be modified)
     
@@ -13,6 +18,19 @@ class Vehicle():
         
     def drive(self): # Function defined inside class (Method)
         print("🚗...")
+```
+
+### `Object`:
+
+- `Object` is an instance of `class`
+
+```python
+car1 = Vehicle(name = 'Range Rover Sport')
+
+# car1: Object
+# Vehicle: Class
+# name: Parameter
+# Range Rover Sport: Argument
 ```
 
 ### `Constructors`
