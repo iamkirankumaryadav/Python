@@ -103,7 +103,7 @@ class Dog():
         self.name = name
         
     def speak(self):
-        print(f'{self.name} says bow bow 🐕')
+        print(f'{self.name} says bow bow 🐶')
         
     def getLegs(self):
         return self._legs
@@ -119,4 +119,7 @@ class Maltese(Dog): # Dog Class is inherited.
         
     def sit(self):
         print(f'{self.name} is sitting 🐕‍🦺')
+        
+    def wag(self):
+        print(f'{self.name} is wagging tail 🐕')
 ```
