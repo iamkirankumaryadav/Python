@@ -7,7 +7,7 @@ class Vehicle():
     def __init__(self, name): # Instance attribute
         self.name = name
         
-    def drive(self):
+    def drive(self): # Function defined inside class (Method)
         print("🚗...")
 ```
 
