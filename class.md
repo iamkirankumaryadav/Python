@@ -47,19 +47,39 @@ car1 = Vehicle(name = 'Range Rover Sport')
         self.last_name = last_name
 ```
 
-### `Static` Attribute
+### `Destructor`
+- `Destructors` are called when an object gets destroyed.
+- `Destructors` are not needed in Python unlike C++.
+- Because Python has a garbage collector that handles memory management automatically. 
+
+```python
+# Destructor:
+    def __del__(self):
+        pass
+```
+
+### `Static` Attribute | `Class` Variable
+
+- `Variables` or `Attribute` assigned in the class declaration.
 - Generally static attributes are defined to store constant values or business logic.
 - Static attributes can be called by every `functions` defined inside a class irrespective of it's scope.
 
+### `Instance` Attribute | `Instance` Variable
+
+- `Variables` or `Attributes` that are assigned inside methods are `instance` variables.
+
 ### `Instance` Method 
+
+- `Function` defined inside an class which can be accessed and modified by every created `instance` (object) of that class.
+- `Instance` method takes `self` as a first parameter.
 
 ```python
 import math
 class Orientation():
 
     def __init__(self, x_pos, y_pos, degree):
-        self.x_pos = x_pos # Positions
-        self.y_pos = y_pos
+        self.x_pos = x_pos # Instance Variable | Insatnce Attribute
+        self.y_pos = y_pos # Instance Variable | Instance Attribute
         self.x_dir, self.y_dir = self.getUnitVectorFromDegree(degree) # Direction vectors
         
     # Instance Method    
@@ -122,6 +142,12 @@ print(Person.isAdult(26))
 26
 True
 ```
+
+### `Decorators`
+
+- `Decorators` modify the behaviour of `function` or `class`
+- Decorator `@classmethod` is used to create a `class` method. 
+- Decorator `@staticmethod` is used to create a `static` method.
 
 # Class `Inheritance`
 
