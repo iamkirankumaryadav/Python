@@ -114,8 +114,9 @@ class Dog():
 ```python
 class Maltese(Dog): # Dog Class is inherited.
 
+    # Super Function : Inherit instance attributes from parent and extend with new instance attributes. 
     def __init__(self, name, breed):
-        super().__init__(self, name): # Super Function : Inherit instance attributes from parent and extend with new instance attributes. 
+        super().__init__(self, name): 
             self.breed = breed        
     
     # Overwritting instance method: Modifying the method inherited from parent class.
