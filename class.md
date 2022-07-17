@@ -114,9 +114,11 @@ class Dog():
 ```python
 class Maltese(Dog): # Dog Class is inherited.
     
+    # Overwritting instance method: Modifying the method inherited from parent class.
     def speak(self):
         print(f'{self.name} says wow wow 🐩')
-        
+    
+    # Extending instance methods: Adding new methods for new child class.
     def sit(self):
         print(f'{self.name} is sitting 🐕‍🦺')
         
