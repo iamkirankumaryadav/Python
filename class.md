@@ -15,6 +15,22 @@ class Vehicle():
         print("🚗...")
 ```
 
+### `Constructors`
+
+- `Constructors` are generally used for instantiating an object.
+- `__init__()` method is the `constructor` and is always called when an object is created.
+
+```python
+# Default Constructor:
+    def __init__(self):
+        pass
+    
+# Parameterized constructor
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+```
+
 ### `Static` Attribute
 - Generally static attributes are defined to store constant values or business logic.
 - Static attributes can be called by every `functions` defined inside a class irrespective of it's scope.
@@ -49,6 +65,13 @@ myOrientation = Orientation(5, 5, 75)
 - `@classmethod` decorator in used to create a `class` method.
 - They can access only the class parameters and not the object instance attributes.
 
+### `Static` Method
+
+- `Static` method is also a method that is bound to the class and not the object of the class.
+- While defining a `static` method, we don't need to pass `self` as first parameter.
+- `@staticmethod` decorator in used to create a `static` method.
+
+
 ```python
 from datetime import date
 
@@ -82,60 +105,6 @@ print(Person.isAdult(26))
 25
 26
 True
-```
-
-### `Static` Method
-
-- `Static` method is also a method that is bound to the class and not the object of the class.
-- While defining a `static` method, we don't need to pass `self` as first parameter.
-- `@staticmethod` decorator in used to create a `static` method.
-
-```python
-import math
-class Orientation():
-    pi = 3.14 # Static attribute
-    
-    def __init__(self, x_pos, y_pos, degree):
-        self.x_pos = x_pos # Positions
-        self.y_pos = y_pos
-        self.x_dir, self.y_dir = Orientation.getUnitVectorFromDegree(degree) # Direction vectors
-        
-    # Static Method
-    @staticmethod
-    def getUnitVectorFromDegree(degree):
-        radians = (degree/180) * Orientation.pi
-        return math.sin(radians), -math.cos(radians)
-    
-    # Instance Method
-    def getNextPosition(self):
-        return self.x_pos + self.x_dir, self.y_pos + self.y_dir
-      
-myOrientation = Orientation(5, 5, 75)      
-```
-
-### `Constructor`
-
-```python
-import math
-class Orientation():
-    pi = 3.14 # Static attribute
-    
-    def __init__(self, x_pos, y_pos, degree):
-        self.x_pos = x_pos # Positions
-        self.y_pos = y_pos
-        self.x_dir, self.y_dir = self.getUnitVectorFromDegree(degree) # Direction vectors
-        
-    # Decorator        
-    @staticmethod    
-    def getUnitVectorFromDegree(degree): # Self is never passed as an argument for static methods.
-        radians = (degree/180) * Orientation.pi
-        return math.sin(radians), -math.cos(radians)
-    
-    # Class Method | Instance Method
-    def getNextPosition(self):
-        return self.x_pos + self.x_dir, self.y_pos + self.y_dir
-      
-myOrientation = Orientation(5, 5, 75)      
 ```
 
 # Class `Inheritance`
