@@ -112,7 +112,7 @@ class Dog():
 ### `Child` Class
 
 ```python
-class Maltese(Dog): # Dog Class is inherited.
+class Maltese(Dog): # Child class "Maltese" inherits parent class "Dog".
 
     # Super Function : Inherit instance attributes from parent and extend with new instance attributes. 
     def __init__(self, name, breed):
