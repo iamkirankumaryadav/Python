@@ -25,7 +25,7 @@ class Vehicle():
 ```python
 car1 = Vehicle(name = 'Range Rover Sport')
 
-# car1: Object
+# car1: Object | Instance
 # Vehicle: Class
 # name: Parameter
 # Range Rover Sport: Argument
