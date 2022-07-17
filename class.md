@@ -118,7 +118,7 @@ class Maltese(Dog): # Dog Class is inherited.
     def speak(self):
         print(f'{self.name} says wow wow 🐩')
     
-    # Extending instance methods: Adding new methods for new child class.
+    # Extending instance methods: Adding new methods for child class.
     def sit(self):
         print(f'{self.name} is sitting 🐕‍🦺')
         
