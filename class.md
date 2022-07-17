@@ -93,7 +93,7 @@ myOrientation = Orientation(5, 5, 75)
 
 # Class `Inheritance`
 
-### `Parent` Class
+### `Parent` Class | `Base` Class | `Super` Class
 
 ```python
 class Dog():
@@ -109,7 +109,7 @@ class Dog():
         return self._legs
 ```            
 
-### `Child` Class
+### `Child` Class | `Derived` Class | `Sub` Class
 
 ```python
 class Maltese(Dog): # Child class "Maltese" inherits parent class "Dog".
