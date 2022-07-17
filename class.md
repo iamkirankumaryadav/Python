@@ -18,7 +18,7 @@ class Vehicle():
         print("🚗...")
 ```
 
-### `Object`:
+### `Object`
 
 - `Object` is an instance of `class`
 
