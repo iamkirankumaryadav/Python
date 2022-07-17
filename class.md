@@ -19,7 +19,7 @@ class Vehicle():
 - Generally static attributes are defined to store constant values or business logic.
 - Static attributes can be called by every `functions` defined inside a class irrespective of it's scope.
 
-### `Instance` Method | Class Method
+### `Instance` Method 
 
 ```python
 import math
@@ -42,7 +42,53 @@ class Orientation():
 myOrientation = Orientation(5, 5, 75)      
 ```
 
+### `Class` Method
+
+- `Class` method is bound to the class and not the object of the class.
+- `Class` method takes `cls` as the first parameter. 
+- `@classmethod` decorator in used to create a `class` method.
+- They can access only the class parameters and not the object instance attributes.
+
+```python
+from datetime import date
+
+class Person: 
+
+    def __init__(self, name, age): # Instance attribute.
+        self.name = name
+        self.age = age
+ 
+    # Class method to create a person object by birth year.
+    @classmethod
+    def fromBirthYear(cls, name, year): # cls is passed as first parameter.
+        return cls(name, date.today().year - year)
+ 
+    # Static method to check if a person is adult or not.
+    @staticmethod
+    def isAdult(age): # No need to pass self as first parameter.
+        return age > 18
+ 
+ 
+person1 = Person('Kirankumar', 25)
+person2 = Person.fromBirthYear('Kirankumar', 1996)
+ 
+print(person1.age)
+print(person2.age)
+ 
+# print the result
+print(Person.isAdult(26))
+
+# Output:
+25
+26
+True
+```
+
 ### `Static` Method
+
+- `Static` method is also a method that is bound to the class and not the object of the class.
+- While defining a `static` method, we don't need to pass `self` as first parameter.
+- `@staticmethod` decorator in used to create a `static` method.
 
 ```python
 import math
@@ -54,7 +100,8 @@ class Orientation():
         self.y_pos = y_pos
         self.x_dir, self.y_dir = Orientation.getUnitVectorFromDegree(degree) # Direction vectors
         
-    # Static Method    
+    # Static Method
+    @staticmethod
     def getUnitVectorFromDegree(degree):
         radians = (degree/180) * Orientation.pi
         return math.sin(radians), -math.cos(radians)
@@ -119,7 +166,7 @@ class Maltese(Dog): # Child class "Maltese" inherits parent class "Dog".
         super().__init__(self, name): 
             self.breed = breed        
     
-    # Overwritting instance method: Modifying the method inherited from parent class.
+    # Method Overriding: Overwritting or modifying the instance method inherited from parent class.
     def speak(self):
         print(f'{self.name} says wow wow 🐩')
     
@@ -130,3 +177,7 @@ class Maltese(Dog): # Child class "Maltese" inherits parent class "Dog".
     def wag(self):
         print(f'{self.name} is wagging tail 🐕')
 ```
+
+### `Method` Overloading
+
+- Instance methods defined with same name but different parameters
