@@ -91,3 +91,32 @@ class Orientation():
 myOrientation = Orientation(5, 5, 75)      
 ```
 
+# Class `Inheritance`
+
+### `Parent` Class
+
+```python
+class Dog():
+    _legs = 4 # Static attribute
+    
+    def __init__(self, name):
+        self.name = name
+        
+    def speak(self):
+        print(f'{self.name} says bow bow 🐕')
+        
+    def getLegs(self):
+        return self._legs
+```            
+
+### `Child` Class
+
+```python
+class Maltese(Dog): # Dog Class is inherited.
+    
+    def speak(self):
+        print(f'{self.name} says wow wow 🐩')
+        
+    def sit(self):
+        print(f'{self.name} is sitting 🐕‍🦺')
+```
