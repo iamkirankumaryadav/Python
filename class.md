@@ -50,7 +50,7 @@ car1 = Vehicle(name = 'Range Rover Sport')
 ### `Destructor`
 - `Destructors` are called when an object gets destroyed.
 - `Destructors` are not needed in Python unlike C++.
-- Because Python has a garbage collector that handles memory management automatically. 
+- Python has an inbuilt garbage collector that handles memory management automatically. 
 
 ```python
 # Destructor:
