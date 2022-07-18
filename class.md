@@ -34,7 +34,7 @@ car1 = Vehicle(name = 'Range Rover Sport')
 ### `Constructors`
 
 - `Constructors` are generally used for instantiating an object.
-- `__init__()` method is the `constructor` and is always called automatically when an object is created.
+- `__init__()` method is the `constructor` called automatically when an object is created.
 
 ```python
 # Default Constructor:
