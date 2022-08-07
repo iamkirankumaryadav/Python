@@ -33,8 +33,9 @@ car1 = Vehicle(name = 'Range Rover Sport')
 
 ### `Constructors` : Special Method
 
-- `Constructors` are used to initialize object properties of class members at any instance.
-- `__init__()` method is the `constructor` called automatically when an object is created.
+- First method that is called on `object` creation.
+- `__init__()` is a `constructor` called automatically when an object is created.
+- `Constructors` are used to initialize object properties.
 
 ```python
 # Default Constructor:
