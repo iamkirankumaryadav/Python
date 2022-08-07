@@ -192,6 +192,8 @@ class Maltese(Dog): # Child class "Maltese" inherits parent class "Dog".
         print(f'{self.name} is wagging tail 🐕')
 ```
 
+- We cannot access or call the private variable `__variable` of `Parent Class` into `Child Class`
+
 ### `Method` Overloading
 
 - Instance methods defined with same name but different parameters
