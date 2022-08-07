@@ -64,10 +64,12 @@ car1 = Vehicle(name = 'Range Rover Sport')
 - `Variables` or `Attribute` assigned in the class declaration.
 - Generally static attributes are defined to store constant values or business logic.
 - Static attributes can be called by every `functions` defined inside a class irrespective of it's scope.
+- `Class` variables are common and will be accessible to all the instances | objects of class.
 
 ### `Instance` Attribute | `Instance` Variable
 
 - `Variables` or `Attributes` that are assigned inside methods are `instance` variables.
+- `Instance` varaible are unique to each instance.
 
 ### `Instance` Method 
 
