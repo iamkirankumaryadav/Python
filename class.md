@@ -31,9 +31,8 @@ car1 = Vehicle(name = 'Range Rover Sport')
 # Range Rover Sport: Argument
 ```
 
-### `Constructors`
+### `Constructors` : Special Method
 
-- Special type of method. 
 - `Constructors` are used to initialize object properties of class members at any instance.
 - `__init__()` method is the `constructor` called automatically when an object is created.
 
