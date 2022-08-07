@@ -192,7 +192,55 @@ class Maltese(Dog): # Child class "Maltese" inherits parent class "Dog".
         print(f'{self.name} is wagging tail 🐕')
 ```
 
+### Types of `Inheritance`
+
+`Multiple Inheritance`
+
+```python
+class A:
+    def __init__(self):
+        self.a = 10
+        
+class B:
+    def __init__(self):
+        self.b = 20
+        
+class C(A, B):
+    def __init__(self):
+        A.__init__(self)
+        B.__init__(self)
+        self.c = 30
+        
+Object = C()
+print(Object.a, Object.b, Object.c)
+
+# Output:
+10 20 30
+```
+
+`Multilevel Inheritance`
+
+```python
+class A:
+    def __init__(self, a):
+        self.a = a
+        
+class B(A):
+    def __init__(self, a, b):
+        A.__init__(self, a)
+        self.b = b
+        
+class C(B):
+    def __init__(self, a, b, c):
+        B.__init__(self, a, b)
+        self.c = c
+        
+Object = C(a=10, b=20, c=30)
+print(Object.a, Object.b, Object.c)
+```    
+
 - We cannot access or call the private variable `__variable` of `Parent Class` into `Child Class`
+- It is only possible if we create a get function for private variable in parent class.
 
 ### `Method` Overloading
 
