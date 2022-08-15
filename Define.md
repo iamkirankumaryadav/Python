@@ -55,6 +55,9 @@ print(list(filter(lambda c : c.islower(), dir(module))))
 # Define Method:
 def method_name():
 
+# Call Method:
+object.method_name()
+
 # Find all Methods defined in a module:
 print(list(filter(lambda c : c.islower(), dir(module))))
 ```
