@@ -102,26 +102,24 @@ emp1 = Employee()
     def __init__(self, name, age, email, designation):
 ```
 
-### `Define Function`
+### `Function`
 
 ``` Python
-def functionname(argument1, argument2):
+# Define Function:
+def function_name(argument1, argument2):
     pass
+    
+# Call Function:
+function_name(parameter1, parameter2)
 ```        
 
-### `Call Function`
-
-```Python
-functionname(parameter1, parameter2)
-```
-
-### Position of Arguments
+### Position of `Arguments`
 
 ```Python
 def example(arg_1, arg_2, *args, **kwargs):
 ```
 
-### `self`
+### `Self`
 - A reference to the current `instance` ( attributes and methods ) of the class.
 - Used to access or reference `attributes` and `methods` of class.
 - `self` provides a flexibility to call the `instance attributes` in any method defined inside the class irrespective of it's scope.
@@ -147,7 +145,7 @@ name = 'Kirankumar' # String object "name" is created.
 name.upper() # upper() is the method of string object.
 ```
 
-## `Principles` of OOP
+## `Principles` of OOP : `APIE`
 1. `Abstraction`
 2. `Polymorphism`
 3. `Inheritance`
