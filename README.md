@@ -13,7 +13,7 @@
 7. `Open source` with vibrant `community` support ( Stack Overflow, Videos, Medium )
 8. Rich `documentation` ( Python and all the libraries i.e. builtin and 3rd party modules, submodules )
 9. `Modularity`: Working in seperate `modules`, helps to **focus** and make development easy and less error prone.
-10. `Reusability` of codes, `modules`, `functions`, `methods` and `classes` can be easily reused by other part of the program.
+10. `Reusability` of codes, `modules`, `functions`, `methods` and `classes` 
 11. `Applications`: Statistics, Data Science, ML, DL, AI, IOT, Web Development, Analytics, System Admin, Automations, etc.
 12. The only drawback is execution speed is `low` as compared to `C`, `C++`, etc.
 
