@@ -16,3 +16,5 @@
 10. `Reusability` of codes, `modules`, `functions`, `methods` and `classes` can be easily reused by other part of the program.
 11. `Applications`: Statistics, Data Science, ML, DL, AI, IOT, Web Development, Analytics, System Admin, Automations, etc.
 12. The only drawback is execution speed is `low` as compared to `C`, `C++`, etc.
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
