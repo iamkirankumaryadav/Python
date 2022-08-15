@@ -169,7 +169,7 @@ type({1}) : set
   </tr>
   <tr>
     <td>String</td>
-    <td><code>string</code></td>
+    <td><code>str</code></td>
     <td><strong>Immutable characters</strong></td>
   </tr>
   <tr>
