@@ -69,7 +69,7 @@ print(list(filter(lambda c : c.islower(), dir(module))))
 
 ```python
 # Define Dunder Method:
-def `__init__(self)`
+def __init__(self)
 
 # Find all the dunder methods defined in a module:
 print(list(filter(lambda c : c.startswith('__'), dir(module))))
