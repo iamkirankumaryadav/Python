@@ -1,4 +1,4 @@
-# Object Oriented Programming
+# `OOP` : Object Oriented Programming
 
 - `Python` is an object oriented programming language.
 - Every real world entity is an `object`, almost everything in Python is an `object`
