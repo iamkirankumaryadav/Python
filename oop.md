@@ -54,10 +54,10 @@ float(7) = 7.0
 ```
 
 
-### `class` 
-- Blueprint | Template for real world entities and creating `objects` 
-- Attributes | Properties | Variables 
-- Behavior | Action | Member `Function` or `Methods`
+### `Class` 
+- `Blueprint` | `Template` for `real world entities` and creating `objects` 
+- `Attributes` | `Properties` | `Variables`
+- `Behavior` | `Action` | Member `Function` or `Methods`
 
 Every class has three essential components:
 1. `Identity` : Unique name to identify the object ( class Person  )
@@ -69,7 +69,7 @@ class Employee(object):
     pass
 ```
 
-### `object`
+### `Object`
 - `Instance` of class, that can store value (information) 
 - e.g. If Smartphone is a **Class** then Apple, Samsung, Motorola, Oneplus are instances.
 
@@ -102,6 +102,25 @@ emp1 = Employee()
     def __init__(self, name, age, email, designation):
 ```
 
+### `Define Function`
+
+``` Python
+def functionname(argument1, argument2):
+    pass
+```        
+
+### `Call Function`
+
+```Python
+functionname(parameter1, parameter2)
+```
+
+### Position of Arguments
+
+```Python
+def example(arg_1, arg_2, *args, **kwargs):
+```
+
 ### `self`
 - A reference to the current `instance` ( attributes and methods ) of the class.
 - Used to access or reference `attributes` and `methods` of class.
@@ -120,7 +139,7 @@ instance attributes : name, age, email, designation
 object will be created with initial values passed to the instance attributes
 ```
 
-### `method`
+### `Method`
 - `Functions` that belongs to an object are called `methods` or Simply `functions` defined inside `class` are `methods`
 ```python
 name = 'Kirankumar' # String object "name" is created.
@@ -272,6 +291,30 @@ Output :
 - (**+**) Operator will perform **arithmetic addition** on two numbers, **merge** two lists and **concatenate** two strings.
 - But it does not performs same operations on **user defined class**
 - we need to implement **\_\_add\_\_()** function in the class.
+
+### `Python Memory Management`
+- Python manages its memory using private `heap space`
+- `Objects` are stored in `heap` ( Inaccessible to the programmers )
+- In built `garbage collector` to `recycle` the unused memory for the `private heap space`
+
+### `break`
+- `Terminates` the `loop` and control flows to the statement after the body of loop.
+
+### `continue`
+- `Terminates` current iteration of the statement, `skips` the rest of the code in current iteration
+- Control flows to the next iteration of the Loop.
+
+### `pass`
+- Empty statement just used to bypass the error situation.
+
+### `Generators`
+- Functions that returns an `iterable collection` of items on which we can apply loop or control flow.
+
+### `help()`
+- Display `documentation` of `modules`, `classes`, `functions` and `keywords`
+
+### `dir()`
+- List of valid `attributes` and `methods` of an object based on its datatype and state.
 
 ### Overloading Arithmetic and Logical Operators 
 
