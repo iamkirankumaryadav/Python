@@ -6,7 +6,7 @@
 
 1. Easy to `read`, `code` and `learn`
 2. `High level interpreted` programming language ( Executes codes line by line)
-3. `Object oriented`: Creates an object that holds the value and data type, the memory address is passed to the variable. 
+3. `Object oriented`: Object that holds the value and data type, the memory address is passed to the variable. 
 4. `Dynamically` typed ( `Data type` of object is based on its `assigned value` | Object can change its data type dynamically )
 5. Abundance of `libraries` ( Pandas, NumPy, SciPy ) and `frameworks` ( Django, Flask )
 6. `Portable` and `flexible` ( Anaconda, Jupyter, Terminal, IDE, Text Editor, Google Colab )
