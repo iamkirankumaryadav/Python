@@ -94,14 +94,6 @@ emp1 = Employee()
 - Every new object `instance` is located at a different memory address.
 - The process to **create** an `object` is similar to a `function call` (**ObjectName** = **ClassName()**)
 
-### `Methods`
-- `Functions` defined inside body of a `class`
-- Defines `action` or `behaviour` of an object.
-
-```python
-    def __init__(self, name, age, email, designation):
-```
-
 ### `Function`
 
 ``` Python
@@ -117,6 +109,14 @@ function_name(parameter1, parameter2)
 
 ```Python
 def example(arg_1, arg_2, *args, **kwargs):
+```
+
+### `Method`
+- `Function` defined inside body of a `class`
+- Defines `action` or `behaviour` of an object.
+
+```python
+    def __init__(self, name, age, email, designation):
 ```
 
 ### `Self`
