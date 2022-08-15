@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td><img src="Images/DictionaryMethods.png" alt="Dictionary Methods"></td>   
-    <td><img src="Images/DictionaryFunctions.png" alt="Dictionary Functions"></td>    
+    <td><img src="Images/DictionaryFunction.png" alt="Dictionary Functions"></td>    
   </tr>
 </table>
 
