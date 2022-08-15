@@ -1,7 +1,7 @@
 # Object Oriented Programming
 
 - `Python` is an object oriented programming language.
-- Almost everything in Python is an `object`
+- Every real world entity is an `object`, almost everything in Python is an `object`
 ```
 e.g. x = 5 
 
@@ -55,9 +55,14 @@ float(7) = 7.0
 
 
 ### `class` 
-- Blueprint | Template for creating `objects`
+- Blueprint | Template for real world entities and creating `objects` 
 - Attributes | Properties | Variables 
 - Behavior | Action | Member `Function` or `Methods`
+
+Every class has three essential components:
+1. `Identity` : Unique name to identify the object.
+2. `Property` : Attributes | Data ( About the object )
+3. `Method` : Behaviour | Action | Operation ( What the object can do? )
 
 ```python 
 class Employee(object):
@@ -66,6 +71,7 @@ class Employee(object):
 
 ### `object`
 - `Instance` of class, that can store value (information) 
+- e.g. If Smartphone is a **Class** then Apple, Samsung, Motorola, Oneplus are instances.
 
 ```python
 emp1 = Employee()
