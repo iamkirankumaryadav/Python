@@ -60,9 +60,9 @@ float(7) = 7.0
 - Behavior | Action | Member `Function` or `Methods`
 
 Every class has three essential components:
-1. `Identity` : Unique name to identify the object.
-2. `Property` : Attributes | Data ( About the object )
-3. `Method` : Behaviour | Action | Operation ( What the object can do? )
+1. `Identity` : Unique name to identify the object ( class Person  )
+2. `Property` : Attributes | Data ( About the object: Name, Gender, Age, Height, Weight )
+3. `Method` : Behaviour | Action | Operation ( What the object can do? Read, Write, Walk, Run, Study, Teach )
 
 ```python 
 class Employee(object):
@@ -80,9 +80,11 @@ emp1 = Employee()
 ### `__init__()`
 - `Special Constructor` or `Special Method` or `Magic Method`
 - `Attributes` are initialized in `__init__()`
-- It is defined automatically when we create any class object.
+- Defined automatically when we create any class object, and automatically invokes whenever an object is created.
 - `__init__()` function is executed automatically with every new class instance.
 - The arguments or parameters passed with `__init__()` are called `instance attributes`
+- `Default Constructor` : Constructor with no parameters | arguments.
+- First parameter will always be a variable `self`
 
 ```python
     def __init__(self, name, age, email, designation):
