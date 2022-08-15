@@ -30,6 +30,22 @@ def Class_Name(object):
 print(list(filter(lambda c : c.istitle(), dir(module))))
 ```
 
+## `Function`
+
+- `Functions` are defined with `lowercase`
+- Find all the `Functions` defined inside a module.
+
+```python
+# Define Function:
+def function_name(argument1, argument2):
+
+# Call Function:
+function_name(parameter1, parameter2)
+
+# Find all Functions defined in a module:
+print(list(filter(lambda c : c.islower(), dir(module))))
+```
+
 ## `Methods`
 
 - `Methods` are defined with `lowercase`
