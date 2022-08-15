@@ -1,11 +1,11 @@
 # `Pandas`
-![Pandas](Image/PandasMethod.jfif)
+![Pandas](Images/PandasMethod.jfif)
 
 # `NumPy`
-![NumPy](Image/NumPyMethod.jfif)
+![NumPy](Images/NumPyMethod.jfif)
 
 # `Matplotlib`
-![Matplotlib](Image/MatplotlibMethod.jfif)
+![Matplotlib](Images/MatplotlibMethod.jfif)
 
 # `Seaborn`
-![Seaborn](Image/SeabornMethod.jfif)
+![Seaborn](Images/SeabornMethod.jfif)
