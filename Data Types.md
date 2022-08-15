@@ -188,3 +188,5 @@ type({1}) : set
     <td><strong>Key value pairs</strong></td>
   </tr>
 </table>
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
