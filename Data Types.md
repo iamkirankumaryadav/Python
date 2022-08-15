@@ -164,21 +164,26 @@ type({1}) : set
 <table>
   <tr>
     <th>Sequence</th>
+    <th>Class</th>
     <th>Definition</th>
   </tr>
   <tr>
+    <td>String</td>
     <td><code>string</code></td>
     <td><strong>Immutable characters</strong></td>
   </tr>
   <tr>
+    <td>List</td>
     <td><code>list</code></td>
     <td><strong>Heterogeneous mutable elements</strong></td>
   </tr>
   <tr>
+    <td>Tuple</td>
     <td><code>tuple</code></td>
     <td><strong>Heterogeneous immutable elements</strong></td>
   </tr>
   <tr>
+    <td>Dictionary</td>
     <td><code>dict</code></td>
     <td><strong>Key value pairs</strong></td>
   </tr>
