@@ -92,7 +92,7 @@ emp1 = Employee()
 ### `Instantiate` an object
 - Process of creating an `object` ( Instance of a class ) is called `instantiation`
 - Every new object `instance` is located at a different memory address.
-- The process to **create** an `object` is similar to a `function call` (**ObjectName** = **ClassName()**)
+- The process to **create** an `object` is similar to a `function call` ( ObjectName = ClassName() )
 
 ### `Function`
 
