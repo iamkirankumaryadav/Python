@@ -4,7 +4,7 @@
 
 `PEP 8` : `Python Enhancement Proposal` guidelines and best practices for writing clean `Python code`
 
-1. Easy to `read`, `code` and `learn`
+1. Free, open source, powerful, easy to `learn`
 2. `High level interpreted` programming language ( Executes codes line by line)
 3. [Object oriented](https://github.com/KIRANKUMAR7296/Python/blob/main/oop.md): Object that holds the value and data type, the memory address is passed to the variable. 
 4. `Dynamically` typed ( [Data type](https://github.com/KIRANKUMAR7296/Python/blob/main/Data%20Types.md) of object is based on its `assigned value` | Dynamic data type )
