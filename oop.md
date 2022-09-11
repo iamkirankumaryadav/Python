@@ -89,7 +89,7 @@ def __init__(self, name):
 ```
 
 ### `__init__()`
-- `Special Constructor` or `Special Method` or `Magic Method`
+- `Special Constructor` or `Constructor Method` or `Special Method` or `Magic Method` or `Init Method`
 - `Attributes` are initialized in `__init__()`
 - Defined automatically when we create any class object, and automatically invokes whenever an object is created.
 - `__init__()` function is executed automatically with every new class instance.
