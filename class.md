@@ -79,18 +79,19 @@ car1 = Vehicle(name = 'Range Rover Sport')
 ```python
 import math
 class Orientation():
-
+    
+    # Constructor Method:
     def __init__(self, x_pos, y_pos, degree):
         self.x_pos = x_pos # Instance Variable | Insatnce Attribute
         self.y_pos = y_pos # Instance Variable | Instance Attribute
         self.x_dir, self.y_dir = self.getUnitVectorFromDegree(degree) # Direction vectors
         
-    # Instance Method    
+    # Instance Method:    
     def getUnitVectorFromDegree(self, degree): # Getter function
         radians = (degree/180) * self.pi
         return math.sin(radians), -math.cos(radians)
     
-    # Instance Method
+    # Instance Method:
     def getNextPosition(self):
         return self.x_pos + self.x_dir, self.y_pos + self.y_dir
       
