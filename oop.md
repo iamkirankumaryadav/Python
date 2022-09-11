@@ -53,7 +53,6 @@ str(5) = "5"
 float(7) = 7.0
 ```
 
-
 ### `Class` 
 - `Blueprint` | `Template` for `real world entities` and creating `objects` 
 - `Attributes` | `Properties` | `Variables`
@@ -68,6 +67,9 @@ Every class has three essential components:
 class Employee(object):
     pass
 ```
+
+### `Instantiate`
+- Calling a `class` to create an `object`
 
 ### `Object`
 - `Instance` of class, that can store value (information) 
