@@ -103,7 +103,8 @@ myOrientation = Orientation(5, 5, 75)
 - `Class` method is bound to the class and not the object of the class.
 - `Class` method takes `cls` as the first parameter. 
 - `@classmethod` decorator in used to create a `class` method.
-- They can access only the class parameters and not the object instance attributes.
+- They can access only the class attributes and not the object instance attributes.
+- `Methods` can be directly called by `Class` without actually instantiating it into an `Object`
 
 ### `Static` Method
 
