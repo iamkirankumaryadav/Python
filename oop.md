@@ -2,6 +2,7 @@
 
 - `Python` is an object oriented programming language.
 - Every real world entity is an `object`, almost everything in Python is an `object`
+- OOP allows us to write code that is `repeatable`, `well organized` and `memory efficient`
 ```
 e.g. x = 5 
 
