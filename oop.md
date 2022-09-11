@@ -83,6 +83,11 @@ emp1 = Employee()
 - Automatically invokes whenever an object is created.
 - `Default Constructor` : Constructor with `no` parameters | arguments
 
+```python
+def __init__(self, name):
+  self.name = name
+```
+
 ### `__init__()`
 - `Special Constructor` or `Special Method` or `Magic Method`
 - `Attributes` are initialized in `__init__()`
