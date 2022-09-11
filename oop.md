@@ -116,12 +116,12 @@ function_name(parameter1, parameter2)
 def greet(name):
     print(f'Good Morning {name}')
     
-greet(name='Kirankumar')    
+print(greet(name='Kirankumar'))    
 ```
 ```
 # Output:
-None
 Good Morning Kirankumar
+None
 ```
 `None`: When a function doesn't return anything, we get None.
 
@@ -129,7 +129,7 @@ Good Morning Kirankumar
 def greet(name):
     return f'Good Morning {name}'
     
-greet(name='Kirankumar')    
+print(greet(name='Kirankumar'))    
 ```
 ```
 # Output:
