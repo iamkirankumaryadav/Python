@@ -112,6 +112,30 @@ def function_name(argument1, argument2):
 function_name(parameter1, parameter2)
 ```        
 
+```python
+def greet(name):
+    print(f'Good Morning {name}')
+    
+greet(name='Kirankumar')    
+```
+```
+# Output:
+None
+Good Morning Kirankumar
+```
+`None`: When a function doesn't return anything, we get None.
+
+```python
+def greet(name):
+    return f'Good Morning {name}'
+    
+greet(name='Kirankumar')    
+```
+```
+# Output:
+Good Morning Kirankumar
+```
+
 ### Position of `Arguments`
 
 ```Python
