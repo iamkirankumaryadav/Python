@@ -11,6 +11,12 @@
     <th><h3>None</h3></th>
   </tr>
   <tr>
+    <td>Represents numeric values</td>
+    <td>Represenst True and False values</td>
+    <td>Represents sequence of characters</td>
+    <td>Represents the absence of a value</td>
+  </tr>
+  <tr>
     <td>
       <ol type="A">
         <li><strong>int</strong>: Integer | Whole No.</li>
@@ -41,6 +47,11 @@
     <th><h3>Tuple</h3></th>
     <th><h3>Set</h3></th>
     <th><h3>Dictionary</h3></th>
+  </tr>
+  <tr>
+    <td colspan=2>Represents sequence of values (Text or Numeric)</td>
+    <td>Represents a collection of unique, non duplicate values</td>
+    <td>Maps keys to the values for efficient information retrieval</td>
   </tr>
   <tr>
     <td>Ordered | Allow Duplicates</td>
