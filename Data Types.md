@@ -157,8 +157,8 @@ type({1}) : set
 - We can also `add` or `remove` the elements. 
 - The `memory address` remains same after changes.
 - `List`, `Sets` (Only add and remove) and `Dictionaries` are mutable.
-- `Tuple` is `immutable` (Cannot change, add or remove elements)
 - `Mutable` objects are `unhashable`
+- `Integers`, `Floats`, `Strings` (Hashable), `Booleans`, `Frozenset`, and `Tuples` are `immutable` (Cannot change, add or remove elements)
 
 
 ### `Iterable`
