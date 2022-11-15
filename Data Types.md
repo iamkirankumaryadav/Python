@@ -158,7 +158,7 @@ type({1}) : set
 - The `memory address` remains same after changes.
 - `List`, `Sets` (Only add and remove) and `Dictionaries` are mutable.
 - `Mutable` objects are `unhashable`
-- `Integers`, `Floats`, `Strings` (Hashable), `Booleans`, `Frozenset`, and `Tuples` are `immutable` (Cannot change, add or remove elements)
+- `Integers`, `Floats`, `Strings`, `Booleans`, `Frozenset`, and `Tuples` are `immutable` (Cannot change, add or remove elements)
 
 
 ### `Iterable`
