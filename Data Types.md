@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th colspan=4><h3>Basic Data Types</h3></th>
+    <th colspan=4><h3>Primitive Data Types</h3></th>
   </tr>
   <tr>
     <th><h3>Numeric</h3></th>
@@ -170,6 +170,7 @@ type({1}) : set
 - `Sets` can have only hashable objects as it's `value`
 - `Dictionaries` also have only hashable objects as it's `key`
 - Each and every elements of an immutable object have a hash value and they are able to return a hash value.
+- An object is `hashable` if it has a hash value that does not change during its entire lifetime.
 - `Strings`, `Integers`, `Booleans`, `Tuples` and `Frozen Sets` are `immutable`
 
 <table>
