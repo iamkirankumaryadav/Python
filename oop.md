@@ -98,7 +98,6 @@ Employee()
 
 ```python
 emp1 = Employee()
-
 # emp1 is an object name. 
 # Employee is the class name.
 ```     
