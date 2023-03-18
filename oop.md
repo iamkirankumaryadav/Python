@@ -78,7 +78,8 @@ class Employee(object):
 ```python
 emp1 = Employee()
 
-# Here emp1 is an object name and Employee is the class name.
+# emp1 is an object name. 
+# Employee is the class name.
 ```     
 
 ### `Constructor`
