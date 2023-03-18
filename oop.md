@@ -87,6 +87,10 @@ class Person:
 ### `Instantiate`
 - Calling a `class` to create an `object`
 
+```python
+emp1 = Employee()
+```
+
 ### `Object`
 - `Instance` of class, that can store value (information) 
 - e.g. If Smartphone is a **Class** then Apple, Samsung, Motorola, Oneplus are instances.
