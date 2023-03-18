@@ -88,7 +88,8 @@ class Person:
 - Calling a `class` to create an `object`
 
 ```python
-emp1 = Employee()
+# Class is called with paranthesis.
+Employee()
 ```
 
 ### `Object`
