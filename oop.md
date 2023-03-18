@@ -56,8 +56,7 @@ float(7) = 7.0
 
 ### `Class` 
 - `Blueprint` | `Template` for `real world entities` and creating `objects` 
-- `Attributes` | `Properties` | `Variables`
-- `Behavior` | `Action` | Member `Function` or `Methods`
+- Defines `Attributes` | `Properties` | `Variables` and `Behavior` | `Action` | Member `Function` or `Methods`
 
 Every class has three essential components:
 1. `Identity` : Unique name to identify the object ( class Person  )
@@ -78,6 +77,8 @@ class Employee(object):
 
 ```python
 emp1 = Employee()
+
+# Here emp1 is an object name and Employee is the class name.
 ```     
 
 ### `Constructor`
