@@ -69,11 +69,16 @@ class Employee(object):
 ```
 
 ```python
+
+# Person is a class name
 class Person:
+
+    # Special Method or Constructor Method | class Person has two properties name and age.
     def __init__(self, name, age):
         self.name = name
         self.age = age
     
+    # class Person has method introduce.
     def introduce(self):
         print(f"Hi, my name is {self.name} and I'm {self.age} years old.")
 
@@ -93,13 +98,14 @@ emp1 = Employee()
 # Employee is the class name.
 ```     
 
-### `Constructor`
-- Automatically invokes whenever an object is created.
+### `Constructor` Method | Special Method
+- Automatically the method is called whenever an `object` is created.
 - `Default Constructor` : Constructor with `no` parameters | arguments
 
 ```python
-def __init__(self, name):
-  self.name = name
+def __init__(self, name, age):
+    self.name = name
+    self.age = age
 ```
 
 ### `__init__()`
