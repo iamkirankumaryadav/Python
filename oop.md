@@ -97,9 +97,8 @@ Employee()
 - e.g. If Smartphone is a **Class** then Apple, Samsung, Motorola, Oneplus are instances.
 
 ```python
+# emp1 is an object name and Employee is the class name.
 emp1 = Employee()
-# emp1 is an object name. 
-# Employee is the class name.
 ```     
 
 ### `Constructor` Method | Special Method
