@@ -132,7 +132,7 @@ def function_name(argument1, argument2):
     pass
     
 # Call Function:
-function_name(parameter1, parameter2)
+function_name(parameter1 = value1, parameter2 = value2)
 ```        
 
 ```python
