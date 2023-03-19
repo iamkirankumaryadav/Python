@@ -170,7 +170,8 @@ def example(arg_1, arg_2, *args, **kwargs):
 - Defines `action` or `behaviour` of an object.
 
 ```python
-    def __init__(self, name, age, email, designation):
+    def introduce(self):
+        print(f"Hi, my name is {self.name} and I'm {self.age} years old.")
 ```
 
 ### `Self`
