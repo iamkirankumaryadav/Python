@@ -226,8 +226,8 @@ len("Kirankumar") : 10
 len([1, 2, 3, 4, 5]) : 5
 ```
 ### `Inheritance`
-- `Parent` Class or `Base` Class or `Super` Class
-- `Child` Class or `Derived` Class or `Sub` Class
+- `Parent | Base | Super` Class
+- `Child | Derived | Sub` Class
 - `Inherit` the `attributes` ( properties ) and `methods` ( behaviour ) from base class to a new derived class.
 - `Inheritance` enables us to `create` a new `class` from existing class by adding new functionality to it or simply modifying it.
 - The pre existing class is known as a `Base Class` and the newly defined class is known as a `Derived Class`
