@@ -160,6 +160,8 @@ type({1}) : set
 - `Mutable` objects are `unhashable`
 - `Integers`, `Floats`, `Strings`, `Booleans`, `Frozenset`, and `Tuples` are `immutable` (Cannot change, add or remove elements)
 
+### `Constructor`
+- `list()`, `tuple()`, `set()` and `dict()`
 
 ### `Iterable`
 - Object is capable of returning it's each elements one at a time (Loops and statements can be applied on them)
