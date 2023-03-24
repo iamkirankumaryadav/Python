@@ -4,7 +4,7 @@
 
 `PEP 8` : `Python Enhancement Proposal` guidelines and best practices for writing clean `Python code`
 
-1. Free, open source, powerful, easy to `learn`
+1. Free, simple syntax, open source, powerful, easy to `learn`
 2. `High level interpreted` programming language ( Executes codes line by line)
 3. [Object oriented](https://github.com/KIRANKUMAR7296/Python/blob/main/oop.md): Object that holds the value and data type, the memory address is passed to the variable. 
 4. `Dynamically` typed ( [Data type](https://github.com/KIRANKUMAR7296/Python/blob/main/Data%20Types.md) of object is based on its `assigned value` | Dynamic data type )
@@ -15,7 +15,9 @@
 9. `Modularity`: Working in seperate `modules`, helps to **focus** and make development easy and less error prone.
 10. `Reusability` of code, [module](https://github.com/KIRANKUMAR7296/Python/blob/main/Importing.md), [function](https://github.com/KIRANKUMAR7296/Python/blob/main/Function.md), [method](https://github.com/KIRANKUMAR7296/Python/blob/main/Methods.md) and [class](https://github.com/KIRANKUMAR7296/Python/blob/main/class.md) 
 11. `Applications`: Statistics, Data Science, ML, DL, AI, IOT, Web Development, Analytics, Automations.
-12. The only drawback is execution speed is `low` as compared to `C`, `C++`, etc.
-13. Most popular due to accessibility, flexibility, ease of use and wide range of applications.
+12. Supports multiple programming paradigm, including `procedural`, `OOP` and `functional` programming.
+13. Supports multiple platforms, including `Windows`, `MacOS` and `Linux` along with almost all the `IDE's` and `text editors`
+14. The only drawback is execution speed is `low` as compared to `C`, `C++`, etc.
+15. Most popular due to active community, accessibility, flexibility, ease of use and wide range of applications.
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
