@@ -203,4 +203,9 @@ type({1}) : set
   </tr>
 </table>
 
+- `List` is `ordered` and `changeable`, allows duplicate items.
+- `Tuple` is `ordered` and `unchangeable`, allows duplicate items.
+- `Set` is `unordered`, `unchangeable`, and `unindexed`, no duplicate items.
+- `Dictionary` is `ordered` and `changeable`, no duplicate items.
+
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
