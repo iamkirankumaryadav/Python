@@ -141,7 +141,7 @@ type({1}) : set
 ```
 
 ### `Ordered`
-- Order of the items remains same as passed at the time of creating list.
+- Order of the items remains same as passed at the time of defining collection (List, Tuple)
 
 ### `Subscriptable`
 - Elements inside the collections can be `accessed` and `modified` with the help of index positions.
