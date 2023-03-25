@@ -140,6 +140,8 @@ type(set()) : set
 type({1}) : set
 ```
 
+### Collections are used to store multiple items in single variable.
+
 ### `Ordered`
 - Order of the items remains same as passed at the time of defining collection (List, Tuple)
 
