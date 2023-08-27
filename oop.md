@@ -399,4 +399,3 @@ Output :
 | Greater than or equal to | p1 >= p2	| p1.\_\_ge\_\_(p2)     |
 
 <p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
-
