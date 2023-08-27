@@ -11,12 +11,6 @@
     <th><h3>None</h3></th>
   </tr>
   <tr>
-    <td>Represents numeric values</td>
-    <td>Represenst True and False values</td>
-    <td>Represents sequence of characters</td>
-    <td>Represents the absence of a value</td>
-  </tr>
-  <tr>
     <td>
       <ol type="A">
         <li><strong>int</strong>: Integer | Whole No.</li>
@@ -35,7 +29,7 @@
     </td>
     <td>Sequence of <strong>characters</strong>:<br>"Hello", "123", <br>"!@#$%^&*()_+{}[]:;<>?"</td>
     <td>
-      <strong>NoneType</strong>      
+      <strong>Absence of a value:<br>NoneType</strong>      
     </td>
   </tr>
 
