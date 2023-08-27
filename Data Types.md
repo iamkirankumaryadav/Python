@@ -49,13 +49,13 @@
     <th><h3>Dictionary</h3></th>
   </tr>
   <tr>
-    <td colspan=2>Represents sequence of values (Text or Numeric)</td>
-    <td>Represents a collection of unique, non-duplicate values</td>
+    <td colspan=2>Represents sequence of values</td>
+    <td>Represents a collection of unique values</td>
     <td>Maps keys to the values for efficient information retrieval</td>
   </tr>
   <tr>
     <td colspan=2>Ordered and Allow Duplicates</td>    
-    <td>Unordered (Unique)</td>
+    <td>Unordered and Unique</td>
     <td>Ordered unique keys</td>
   </tr>
   <tr>
