@@ -50,12 +50,11 @@
   </tr>
   <tr>
     <td colspan=2>Represents sequence of values (Text or Numeric)</td>
-    <td>Represents a collection of unique, non duplicate values</td>
+    <td>Represents a collection of unique, non-duplicate values</td>
     <td>Maps keys to the values for efficient information retrieval</td>
   </tr>
   <tr>
-    <td>Ordered | Allow Duplicates</td>
-    <td>Ordered<br>Allow Duplicates</td>
+    <td colspan=2>Ordered and Allow Duplicates</td>    
     <td>Unordered (Unique)</td>
     <td>Ordered unique keys</td>
   </tr>
