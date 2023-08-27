@@ -59,7 +59,7 @@
     <td>Ordered unique keys</td>
   </tr>
   <tr>
-    <td>Subscriptable (Access by index)</td>
+    <td>Subscriptable</td>
     <td>Subscriptable</td>
     <td>Not subscriptable</td>
     <td>Subscriptable (Access by key)</td>
