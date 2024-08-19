@@ -1,18 +1,18 @@
 # **Operators**
 
-### **Arithmetic Operators**
+### **Assignment Operator**
+`x = 5` (Here `x` is an operand, `=` is an operator, and `5` is a value)
 
-**Expression** | **Meaning** 
-:--- | :---
-`a + b` | Addition
-`a - b` | Subtraction
-`a * b` | Multiplication
-`a / b` | Division (Float Quotient)
-`a // b` | Floor Division (Integer Quotient)
-`a % b` | Modulo (Remainder)
-`a ** b` | Power (Exponent)
-`+a` | Unary Positive
-`-a` | Unary Negative
+### **Arithmetic Operators**
+**Expression** | **Meaning** | **Example** 
+:--- | :--- | :---
+`a + b` | Addition | `5 + 2 = 7`
+`a - b` | Subtraction | `4 - 2 = 2`
+`a * b` | Multiplication | `2 * 3 = 6`
+`a / b` | Division (Float Quotient) | `4 / 2 = 2`
+`a // b` | Floor Division (Integer Quotient) | `10 // 3 = 3`
+`a % b` | Modulo (Remainder) | `5 % 2 = 1`
+`a ** b` | Power (Exponent) | `4 ** 2 = 16`
 
 ### **Compound Arithmetic Operators**
 Expression | Meaning | Similar
@@ -66,6 +66,7 @@ Expression | Meaning | Similar
 ### **Operator Precedence**
 **Operators** | **Description**
 :--- | :---
+`=` | Assignment 
 `**` | Exponent
 `+x`, `-x` | Unary Positive and Negative
 `*`, `/`, `//`, `%` | Multiplication, Division and Remainder
