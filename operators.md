@@ -63,17 +63,6 @@ Expression | Meaning | Similar
 `a << b` | Shift left
 `a >> b` | Shift right
 
-### **Value Operators**
-**Expression** | **Meaning** 
-:--- | :---
-`a and b` | And
-`a or b` | Or
-`not a` | Not
-`a in b` | Value in the collection (Membership)
-`a not in b` | Value not in the collection (Membership)
-`a is b` | Same object (Identity)
-`a is not b` | Not same object (Identity)
-
 ### **Operator Precedence**
 **Operators** | **Description**
 :--- | :---
