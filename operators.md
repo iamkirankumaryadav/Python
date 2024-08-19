@@ -14,9 +14,10 @@
 `a % b` | Modulo (Remainder) | `5 % 2 = 1`
 `a ** b` | Power (Exponent) | `4 ** 2 = 16`
 
-### **Compound Arithmetic Operators**
-Expression | Meaning | Similar
+### **Compound Arithmetic | Assignment Operators**
+**Expression** | **Meaning** | **Example**
 :--- | :--- | :---
+`a = b` | Assignment | `a = 5`
 `a += b` | Addition | `a = a + b`
 `a -= b` | Subtraction | `a = a - b`
 `a *= b` | Multiplication | `a = a * b`
