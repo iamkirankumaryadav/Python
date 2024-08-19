@@ -27,14 +27,14 @@
 `a **= b` | Power (Exponent) | `a = a ** b`
 
 ### **Comparison | Relational Operators**
-**Expression** | **Meaning** 
+**Expression** | **Meaning** | **Example**
 :--- | :---
-`a == b` | Equal
-`a != b` | Not equal
-`a < b` | Less than
-`a > b` | Greater than
-`a <= b` | Less than or equal
-`a >= b` | Greater than or equal
+`a == b` | Is Equal To | `3 == 5` gives us `False`
+`a != b` | Not Equal To | `3 != 5` gives us `True`
+`a < b` | Less Than | `3 < 5` gives us `True`
+`a > b` | Greater Than | `3 > 5` gives us `False`
+`a <= b` | Less Than or Equal To | `3 <= 5` gives us `True`
+`a >= b` | Greater Than or Equal To | `3 >= 5` gives us `False`
 
 ### **Logical Operators** 
 **Expression** | **Meaning** 
