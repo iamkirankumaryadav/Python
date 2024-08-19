@@ -28,7 +28,7 @@
 
 ### **Comparison | Relational Operators**
 **Expression** | **Meaning** | **Example**
-:--- | :---
+:--- | :--- | :---
 `a == b` | Is Equal To | `3 == 5` gives us `False`
 `a != b` | Not Equal To | `3 != 5` gives us `True`
 `a < b` | Less Than | `3 < 5` gives us `True`
