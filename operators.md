@@ -46,14 +46,14 @@
 ### **Identity Operators**
 **Expression** | **Meaning** 
 :--- | :---
-`x is y` | True if the objects x and y are same
-`x is not y` | True if the objects x and y are different
+`x is y` | `True` if the operands x and y are the same object
+`x is not y` | `True` if the operands x and y are not identical object
 
 ### **Membership Operators** 
 **Expression** | **Meaning** 
 :--- | :---
-`x in [x, y, z]` | True if x is a member of collection 
-`x not in [a, b, c]` | True if x is not a member of collection
+`x in [x, y, z]` | `True` if the value/variable is found in the collection 
+`x not in [a, b, c]` | `True` if the value/variable is not found in the collection
 
 ### **Bitwise Operators**
 **Expression** | **Meaning** 
