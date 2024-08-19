@@ -58,11 +58,12 @@
 ### **Bitwise Operators**
 **Expression** | **Meaning** 
 :--- | :---
-`a & b` | And
-`a \| b` | Or
-`a ^ b` | Xor
-`a << b` | Shift left
-`a >> b` | Shift right
+`a & b` | AND
+`a \| b` | OR
+`a ^ b` | XOR
+`~ a` | NOT
+`a << b` | Left Shift
+`a >> b` | Right Shift
 
 ### **Operator Precedence**
 **Operators** | **Description**
