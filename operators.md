@@ -58,7 +58,7 @@ Expression | Meaning | Similar
 **Expression** | **Meaning** 
 :--- | :---
 `a & b` | And
-`a | b` | Or
+`a \| b` | Or
 `a ^ b` | Xor
 `a << b` | Shift left
 `a >> b` | Shift right
