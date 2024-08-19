@@ -39,9 +39,9 @@
 ### **Logical Operators** 
 **Expression** | **Meaning** 
 :--- | :---
-`x and y` | True if both x and y are true
-`x or y` | True if x or y is true
-`not x` | Invert of x
+`x and y` | Logical `AND`: `True` if both x and y are `True`
+`x or y` | Logical `OR`: `True` if atleast x or y is `True`
+`not x` | Logical `NOT`: Invert of x
 
 ### **Identity Operators**
 **Expression** | **Meaning** 
