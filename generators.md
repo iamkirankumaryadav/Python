@@ -1,7 +1,9 @@
- # Generators
-
-- Creates an iterator.
-- Used for large data set which requires hight memory.
+# Generators
+- Generators are a special type of function that returns an iterator object.
+- Unlike regular functions that return a single value and then terminate, generators can yield multiple values over time
+- **Yield:** The **yield** keyword is used to return a value from the generator function.
+- Unlike **return**, which terminates the function, **yield** pauses execution and saves the current state.
+- When the generator is called again, it resumes from where it left off.
 
 ### Generator Function:
 
@@ -32,10 +34,9 @@ print(list(square(10)))
 ```
 
 ### Generator Expression:
-
 - Comprehensions are faster.
-- Comprehensions are single line codes.
-- Expressions saves memory. 
+- Comprehensions are single-line codes.
+- Expressions save memory. 
 
 ```python
 # Creating list comprehension:
