@@ -623,7 +623,7 @@ This one-line formula is enough to answer one of the most common interview quest
 | 🚫 Unique values with fast search        | **Set**        |
 | 🔑 Key → Value mapping                   | **Dictionary** |
 
-## ⭐ One important thing to know is:
+# ⭐ One important thing to know is:
 
 > **❌ You cannot directly rename a key in a Python dictionary.**
 
