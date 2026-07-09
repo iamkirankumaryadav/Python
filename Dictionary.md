@@ -622,3 +622,228 @@ This one-line formula is enough to answer one of the most common interview quest
 | 🔒 Ordered collection that never changes | **Tuple**      |
 | 🚫 Unique values with fast search        | **Set**        |
 | 🔑 Key → Value mapping                   | **Dictionary** |
+
+### ⭐ One important thing to know is:
+
+> **❌ You cannot directly rename a key in a Python dictionary.**
+
+Instead, you:
+
+1. ✅ Create a new key.
+2. ✅ Copy the old value.
+3. ✅ Delete the old key.
+
+---
+
+# 🧠 Real-Life Analogy
+
+Imagine your office ID card.
+
+Before:
+
+```text
+Employee ID : E101
+Name        : Kiran
+```
+
+The company changes your ID.
+
+After:
+
+```text
+Employee ID : EMP101
+Name        : Kiran
+```
+
+They don't edit the old ID—they create a new one and remove the old one.
+
+That's exactly how Python dictionaries work.
+
+---
+
+# Method 1: Using `pop()` ⭐ (Most Common)
+
+```python
+student = {
+    "marks": 95,
+    "name": "Kiran"
+}
+
+student["score"] = student.pop("marks")
+
+print(student)
+```
+
+**Output**
+
+```python
+{
+    'score': 95,
+    'name': 'Kiran'
+}
+```
+
+### What happened?
+
+```python
+student.pop("marks")
+```
+
+returns:
+
+```python
+95
+```
+
+Then:
+
+```python
+student["score"] = 95
+```
+
+So Python:
+
+* ✅ Creates the new key `"score"`
+* ✅ Copies the value `95`
+* ✅ Removes the old key `"marks"`
+
+---
+
+# Method 2: Step by Step
+
+```python
+student = {
+    "marks": 95,
+    "name": "Kiran"
+}
+
+student["score"] = student["marks"]
+
+del student["marks"]
+
+print(student)
+```
+
+**Output**
+
+```python
+{
+    'score': 95,
+    'name': 'Kiran'
+}
+```
+
+---
+
+# Visual Explanation
+
+### Before
+
+```text
+marks ───► 95
+name  ───► Kiran
+```
+
+↓
+
+Rename
+
+↓
+
+### After
+
+```text
+score ───► 95
+name  ───► Kiran
+```
+
+The **value stays the same**, only the **key changes**.
+
+---
+
+# ⚠️ What if the Old Key Doesn't Exist?
+
+Using `pop()` without a default value:
+
+```python
+student.pop("age")
+```
+
+Output
+
+```text
+KeyError
+```
+
+Safer version:
+
+```python
+student["years"] = student.pop("age", None)
+```
+
+If `"age"` doesn't exist:
+
+* No error
+* `None` is returned
+
+Or you can check first:
+
+```python
+if "age" in student:
+    student["years"] = student.pop("age")
+```
+
+---
+
+# ⭐ Interview Tip
+
+There is **no built-in `rename_key()` method** in Python dictionaries.
+
+The standard way to rename a key is:
+
+```python
+dictionary[new_key] = dictionary.pop(old_key)
+```
+
+or
+
+```python
+dictionary[new_key] = dictionary.pop(old_key, default_value)
+```
+
+---
+
+# 🧠 Memory Trick
+
+Think of a **dictionary** as a locker room.
+
+Before:
+
+```text
+Locker 101 → Kiran's Bag
+```
+
+The locker number changes.
+
+Instead of changing the locker number directly:
+
+1. 📦 Move the bag to **Locker 201**
+2. 🗑️ Remove **Locker 101**
+
+That's exactly what `pop()` does.
+
+---
+
+# 🚀 Summary
+
+| Task           | Code                                      |
+| -------------- | ----------------------------------------- |
+| Update a value | `student["marks"] = 99`                   |
+| Add a new key  | `student["city"] = "Mumbai"`              |
+| Rename a key   | `student["score"] = student.pop("marks")` |
+| Delete a key   | `del student["marks"]`                    |
+
+## 🎯 One-Line Rule
+
+* **Update Value:** `dict[key] = new_value`
+* **Rename Key:** `dict[new_key] = dict.pop(old_key)`
