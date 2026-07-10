@@ -743,15 +743,15 @@ K i r a n
 * Every coach has a **seat number (index)**.
 * You can **look** at any coach.
 * ❌ You **cannot replace** one coach in the middle—the train (string) is immutable. If you want a different train, you create a new one.
-* 🪄 But you can use replace() method to replace character
+* 🪄 But you can use .replace() method to replace character.
 
-```pyhthon
+```python
 name = "Kirankumar"
 name.replace('r', 's', 1)
 ```
 
+Output:
 ```python
-# Output:
 Kisankumar
 ```
 
